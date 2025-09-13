@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ifc xmlns:xlink="http://www.w3.org/1999/xlink">
+	<header>
+		<file_description>
+			<description>ViewDefinition [ReferenceView_V1.2]</description>
+			<implementation_level>2;1</implementation_level>
+		</file_description>
+		<file_name>
+			<author/>
+			<organization/>
+			<name>Building-Hvac.ifc</name>
+			<time_stamp>2024-11-14T11:09:12</time_stamp>
+			<preprocessor_version>IFC-manager for SketchUp (5.3.3)</preprocessor_version>
+			<originating_system>SketchUp 2024 (24.0.594)</originating_system>
+			<authorization>None</authorization>
+		</file_name>
+		<file_schema>
+			<schema_identifiers>IFC4</schema_identifiers>
+		</file_schema>
+	</header>
+	<units>
+		<IfcSIUnit UnitType="LENGTHUNIT" Prefix="MILLI" Name="METRE" SI_equivalent="0.001"/>
+		<IfcSIUnit UnitType="AREAUNIT" Name="SQUARE_METRE" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="VOLUMEUNIT" Name="CUBIC_METRE" SI_equivalent="1"/>
+	</units>
+	<connections/>
+	<properties>
+		<IfcPropertySet id="2IMp2B_yz5uhg91eaUUtU9" Name="Pset_BuildingCommon">
+			<IfcPropertySingleValue Name="ConstructionMethod" NominalValue="new construction"/>
+		</IfcPropertySet>
+	</properties>
+	<quantities/>
+	<work>
+		<schedules/>
+		<plans/>
+	</work>
+	<calendars/>
+	<types>
+		<IfcBuildingElementProxyType id="3mjKLn_DjE4Beriey9bTvr" Name="origin" Description="The local position for coordination of aspect models." Tag="1028017" ElementType="origin" PredefinedType="USERDEFINED"/>
+		<IfcBuildingElementProxyType id="2IpkHFcdnD3xuZl6H52fWn" Name="geo-reference" Description="The reference point for transforming the local engineering coordinate system into the coordinate reference system of the underlying map." Tag="1028019" ElementType="origin" PredefinedType="USERDEFINED"/>
+		<IfcChimneyType id="10FwQBcdzD9ve3W6PvBTti" Name="house - chimney" Description="A chimney, standing tall and proud, guiding smoke away from the home." Tag="884350" ElementType="flue" PredefinedType="USERDEFINED"/>
+		<IfcDuctSegmentType id="2WCxplvXT9YQLTEACI3Wln" Name="building element" Tag="879710" ElementType="rigidsegment" PredefinedType="RIGIDSEGMENT"/>
+		<IfcAirTerminalType id="1bDUqBVpL3VQZuBK3au6xC" Name="chimney cover" Description="A sturdy cover, protecting the chimney from the elements." Tag="879611" ElementType="chimney cover" PredefinedType="USERDEFINED"/>
+		<IfcAirTerminalType id="1lalbrERnBquz_FkWP_uwT" Name="house fireplace cap" Description="A hidden concrete cap, secretly keeping the fireplace safe and sound." Tag="879861" ElementType="fireplace cap" PredefinedType="USERDEFINED"/>
+	</types>
+	<layers/>
+	<groups>
+		<IfcDistributionSystem id="2jrWSvrRvERBuat2Z0kgJ9" Name="house - chimney flue" Description="A vital passage, guiding smoke safely out of the home." ObjectType="exhaust" PredefinedType="EXHAUST">
+			<IfcAirTerminal id="23uPJWDfXEcwHH3kdFgV9c" Name="chimney cover" Description="A sturdy cover, protecting the chimney from the elements." ObjectType="chimney cover" ObjectPlacement="-1.3322676295501878e-15 0 0 0 0 1 0 0 8.2999999999999776 4.6999999999999815 1 0 -1.2968014028970618e-231 1.2027122125173388e-153 1.2027122125347039e-153 1" Tag="454425.1027891.979946.932083.2023772.884510.880033">
+				<IfcAirTerminalType xlink:href="#1bDUqBVpL3VQZuBK3au6xC"/>
+				<IfcMaterial xlink:href="#IfcMaterial_71"/>
+			</IfcAirTerminal>
+			<IfcDuctSegment id="38WbwIGD90nB_3T2BTU5Ed" Name="building element" ObjectType="rigidsegment" ObjectPlacement="-1.3322676295501878e-15 0 0 0 0 1 0 0 7.9499999999999735 0.89999999999997826 1 0 -1.2974304191945574e-231 -1.3322676295501878e-15 -1 1" Tag="454425.1027891.979946.932083.2023772.884510.880032">
+				<IfcDuctSegmentType xlink:href="#2WCxplvXT9YQLTEACI3Wln"/>
+				<IfcMaterial xlink:href="#IfcMaterial_89"/>
+			</IfcDuctSegment>
+			<IfcAirTerminal id="34Y6EIt3nDCAS1k$kPGOKm" Name="house fireplace cap" Description="A hidden concrete cap, secretly keeping the fireplace safe and sound." ObjectType="fireplace cap" ObjectPlacement="-1.3322676295501878e-15 0 0 0 0 1 0 0 8.2360379610027827 0.69999999999997475 1 0 -1.3021480555226368e-231 4.4683439849373141e-310 0 1" Tag="454425.1027891.979946.932083.2023772.884510.880034">
+				<IfcAirTerminalType xlink:href="#1lalbrERnBquz_FkWP_uwT"/>
+				<IfcMaterial xlink:href="#IfcMaterial_107"/>
+			</IfcAirTerminal>
+		</IfcDistributionSystem>
+	</groups>
+	<materials>
+		<IfcMaterial id="IfcMaterial_56" Name="stone_sand-lime"/>
+		<IfcMaterial id="IfcMaterial_71" Name="metal_steel_generic_coated-anthracitegrey"/>
+		<IfcMaterial id="IfcMaterial_89" Name="metal_steel-galvanized"/>
+		<IfcMaterial id="IfcMaterial_107" Name="concrete_reinforced_prefab"/>
+		<IfcMaterial id="IfcMaterial_125" Name="virtual_white"/>
+		<IfcMaterial id="IfcMaterial_144" Name="virtual_black"/>
+	</materials>
+	<decomposition>
+		<IfcProject id="2Ndyd$OSX7s9A04nc4lyye" Name="ifc silly sample scene - project" Description="Demystifying IFC with a playful scene using diverse building elements and compositions.">
+			<IfcSite id="23sFQGRy90RxVbRHD9iSE2" Name="environment - site" Description="A sample scene environment, showcasing the surrounding landscape." ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" CompositionType="COMPLEX" RefElevation="0">
+				<IfcBuildingElementProxy id="3Fit2Fad92zf2f6aWdJtF5" Name="geo-reference" Description="The reference point for transforming the local engineering coordinate system into the coordinate reference system of the underlying map." ObjectType="origin" ObjectPlacement="0.49999999999999989 0 0 0 0 1 0 0 -14.199999999999998 -1.3000000000000018 1 0 -4.4838559739528366e-311 1.2260912657449971e-311 1.2260912675157284e-311 1" Tag="454425.1032696">
+					<IfcBuildingElementProxyType xlink:href="#2IpkHFcdnD3xuZl6H52fWn"/>
+					<IfcMaterial xlink:href="#IfcMaterial_144"/>
+				</IfcBuildingElementProxy>
+				<IfcSite id="1Pbuu0tu59NfhrTsztVBK1" Name="house - site" Description="Smoke curls from a friendly chimney, promising warmth within this idyllic hilltop house." ObjectPlacement="1 0 0 0 0 1 0 0 5.8000000000000007 -1.3000000000000018 1 0 -1.1545854178368441e-310 3.3720844348726814e-307 0 1" CompositionType="PARTIAL" RefElevation="0">
+					<IfcBuildingElementProxy id="2F44QMqSH3TOkM$SZoqCBe" Name="origin" Description="The local position for coordination of aspect models." ObjectType="origin" ObjectPlacement="1 0 0 0 0 1 0 0 8.8817841970012523e-15 -1.7763568394002505e-15 1 0 -1.2930272925146074e-231 6.4937259863624594e-315 0 1" Tag="454425.1027891.1032757">
+						<IfcBuildingElementProxyType xlink:href="#3mjKLn_DjE4Beriey9bTvr"/>
+						<IfcMaterial xlink:href="#IfcMaterial_125"/>
+					</IfcBuildingElementProxy>
+					<IfcBuilding id="0c$N1CTon2BB2Sp89385G8" Name="Single-family house" Description="The main building structure, providing shelter and space." ObjectPlacement="1 0 0 0 0 1 0 0 3.000000000000008 -1.7763568394002505e-15 1 0 -1.3175547107723719e-310 1.505764061197969e+74 1.0539902422731313e-319 1" LongName="house - building" CompositionType="ELEMENT">
+						<IfcBuildingStorey id="1Ano2ZUxnEIvVQ_beukl8b" Name="00 groundfloor" Description="The ground floor, forming the base level of the building." ObjectPlacement="1 0 0 0 0 1 0 0 3.000000000000008 -1.7763568394002505e-15 1 0 -2.5126622027467363e-310 2.592856990432564e-307 0 1" CompositionType="ELEMENT" Elevation="-1.8047785488306545e-12">
+							<IfcChimney id="3dkFAzOGrAIuOzY_RdrdVv" Name="house - chimney" Description="A chimney, standing tall and proud, guiding smoke away from the home." ObjectType="flue" ObjectPlacement="-1.3322676295501878e-15 0 0 0 0 1 0 0 8.2999999999999758 -2.0546053747239057e-14 1 0 -1.2961723842000879e-231 3.7666033118345417e-310 0 1" Tag="454425.1027891.979946.932083.2023772">
+								<IfcChimneyType xlink:href="#10FwQBcdzD9ve3W6PvBTti"/>
+								<IfcMaterial xlink:href="#IfcMaterial_56"/>
+							</IfcChimney>
+							<IfcAirTerminal id="23uPJWDfXEcwHH3kdFgV9c" Name="chimney cover" Description="A sturdy cover, protecting the chimney from the elements." ObjectType="chimney cover" ObjectPlacement="-1.3322676295501878e-15 0 0 0 0 1 0 0 8.2999999999999776 4.6999999999999815 1 0 -1.2968014028970618e-231 1.2027122125173388e-153 1.2027122125347039e-153 1" Tag="454425.1027891.979946.932083.2023772.884510.880033">
+								<IfcAirTerminalType xlink:href="#1bDUqBVpL3VQZuBK3au6xC"/>
+								<IfcMaterial xlink:href="#IfcMaterial_71"/>
+							</IfcAirTerminal>
+							<IfcDuctSegment id="38WbwIGD90nB_3T2BTU5Ed" Name="building element" ObjectType="rigidsegment" ObjectPlacement="-1.3322676295501878e-15 0 0 0 0 1 0 0 7.9499999999999735 0.89999999999997826 1 0 -1.2974304191945574e-231 -1.3322676295501878e-15 -1 1" Tag="454425.1027891.979946.932083.2023772.884510.880032">
+								<IfcDuctSegmentType xlink:href="#2WCxplvXT9YQLTEACI3Wln"/>
+								<IfcMaterial xlink:href="#IfcMaterial_89"/>
+							</IfcDuctSegment>
+							<IfcAirTerminal id="34Y6EIt3nDCAS1k$kPGOKm" Name="house fireplace cap" Description="A hidden concrete cap, secretly keeping the fireplace safe and sound." ObjectType="fireplace cap" ObjectPlacement="-1.3322676295501878e-15 0 0 0 0 1 0 0 8.2360379610027827 0.69999999999997475 1 0 -1.3021480555226368e-231 4.4683439849373141e-310 0 1" Tag="454425.1027891.979946.932083.2023772.884510.880034">
+								<IfcAirTerminalType xlink:href="#1lalbrERnBquz_FkWP_uwT"/>
+								<IfcMaterial xlink:href="#IfcMaterial_107"/>
+							</IfcAirTerminal>
+						</IfcBuildingStorey>
+						<IfcPropertySet xlink:href="#2IMp2B_yz5uhg91eaUUtU9"/>
+					</IfcBuilding>
+				</IfcSite>
+			</IfcSite>
+		</IfcProject>
+	</decomposition>
+</ifc>

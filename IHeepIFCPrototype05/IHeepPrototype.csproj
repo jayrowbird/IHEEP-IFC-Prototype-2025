@@ -1,0 +1,107 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Trash\**" />
+    <EmbeddedResource Remove="Trash\**" />
+    <None Remove="Trash\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="shaders\OffScreenFramebuffer\TestFragment.shader" />
+    <None Remove="shaders\OffScreenFramebuffer\TestVertex.shader" />
+  </ItemGroup>
+
+  
+
+  <ItemGroup>
+    <Content Include="ConversionOutput\readme.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IFCconvert\ifc2obj.cmd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IFCconvert\ifc2xml.cmd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IFCconvert\IfcConvert.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="shaders\OffScreenFramebuffer\TestFragment.shader">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="shaders\OffScreenFramebuffer\TestVertex.shader">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenTK" Version="4.9.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="TestData\10034108-A-CENTRAL_V2018.ifc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="TestData\IFC\Building-Architecture.ifc">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="TestData\IFC\Building-Hvac.ifc">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="TestData\IFC\Building-Landscaping.ifc">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="TestData\IFC\ExampleIFCJson.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="TestData\IFC\Infra-Plumbing.ifc">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="TestData\IFC\Infra-Rail.ifc">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="TestData\IFC\Infra-Road.ifc">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Libraries\01IFCWavefrontLibrary\IFCWavefrontLibrary.csproj" />
+    <ProjectReference Include="..\Libraries\02ReadOBJMaterialFile\ReadOBJMaterials.csproj" />
+    <ProjectReference Include="..\Libraries\03IFCLoadXMLData\IFCLoadXMLData.csproj" />
+    <ProjectReference Include="..\Libraries\04ModelPickingLib\ModelPickingFramebuffer.csproj" />
+    <ProjectReference Include="..\Libraries\05SongoOrbitCameraLib\SongoOrbitCameraLib.csproj" />
+    <ProjectReference Include="..\Libraries\06TestIFCLoadXMLData\TestIFCLoadXMLData.csproj" />
+    <ProjectReference Include="..\Libraries\08OpenTK.GLControl\OpenTK.GLControl.csproj" />
+    <ProjectReference Include="..\Libraries\09JsonTreeView\JsonTreeView\JsonTreeView.csproj" />
+    <ProjectReference Include="..\Libraries\10StbImageSharp\src\StbImageSharp.csproj" />
+    <ProjectReference Include="..\Libraries\11RTree\RTree.csproj" />
+    <ProjectReference Include="..\Libraries\12Rtree.Library\Rtree.Library.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ifc xmlns:xlink="http://www.w3.org/1999/xlink">
+	<header>
+		<file_description>
+			<description>ViewDefinition [ReferenceView_V1.2]</description>
+			<implementation_level>2;1</implementation_level>
+		</file_description>
+		<file_name>
+			<author/>
+			<organization/>
+			<name>Infra-Rail.ifc</name>
+			<time_stamp>2024-11-14T11:09:14</time_stamp>
+			<preprocessor_version>IFC-manager for SketchUp (5.3.3)</preprocessor_version>
+			<originating_system>SketchUp 2024 (24.0.594)</originating_system>
+			<authorization>None</authorization>
+		</file_name>
+		<file_schema>
+			<schema_identifiers>IFC4</schema_identifiers>
+		</file_schema>
+	</header>
+	<units>
+		<IfcSIUnit UnitType="LENGTHUNIT" Prefix="MILLI" Name="METRE" SI_equivalent="0.001"/>
+		<IfcSIUnit UnitType="AREAUNIT" Name="SQUARE_METRE" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="VOLUMEUNIT" Name="CUBIC_METRE" SI_equivalent="1"/>
+	</units>
+	<connections/>
+	<properties/>
+	<quantities/>
+	<work>
+		<schedules/>
+		<plans/>
+	</work>
+	<calendars/>
+	<types>
+		<IfcBuildingElementProxyType id="01Ne9sLvX2JB7MmvFUh4ey" Name="rail" Description="Strong rails, guiding trains safely along their path." Tag="940736" ElementType="rail" PredefinedType="USERDEFINED"/>
+		<IfcBuildingElementProxyType id="0SJ2RiUZ18WvDG2vKWfTmD" Name="ballastbed" Description="A sturdy ballast bed, providing a stable base for railway tracks." Tag="940418" ElementType="ballastbed" PredefinedType="USERDEFINED"/>
+		<IfcBuildingElementProxyType id="1t6PIeEkvA3Ou$ofmC9D_1" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." Tag="940709" ElementType="sleeper" PredefinedType="USERDEFINED"/>
+		<IfcBuildingElementProxyType id="2IpkHFcdnD3xuZl6H52fWn" Name="geo-reference" Description="The reference point for transforming the local engineering coordinate system into the coordinate reference system of the underlying map." Tag="1028019" ElementType="origin" PredefinedType="USERDEFINED"/>
+		<IfcElementAssemblyType id="0iAJVoiDX1LxdIktn5l5jI" Name="highway location marker" Description="A marker indicating specific locations along the highway." Tag="1031224" ElementType="signalassembly" PredefinedType="USERDEFINED"/>
+	</types>
+	<layers/>
+	<groups/>
+	<materials>
+		<IfcMaterial id="IfcMaterial_65" Name="metal_hot-rolled-steel"/>
+		<IfcMaterial id="IfcMaterial_95" Name="bulk-material_ballast_generic"/>
+		<IfcMaterial id="IfcMaterial_113" Name="wood-generic"/>
+		<IfcMaterial id="IfcMaterial_714" Name="virtual_black"/>
+	</materials>
+	<decomposition>
+		<IfcProject id="2Ndyd$OSX7s9A04nc4lyye" Name="ifc silly sample scene - project" Description="Demystifying IFC with a playful scene using diverse building elements and compositions.">
+			<IfcSite id="23sFQGRy90RxVbRHD9iSE2" Name="environment - site" Description="A sample scene environment, showcasing the surrounding landscape." ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" CompositionType="COMPLEX" RefElevation="0">
+				<IfcBuildingElementProxy id="3Fit2Fad92zf2f6aWdJtF5" Name="geo-reference" Description="The reference point for transforming the local engineering coordinate system into the coordinate reference system of the underlying map." ObjectType="origin" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 -1.2925018858369885e-231 3.3720844348727079e-307 0 1" Tag="454425.1032696">
+					<IfcBuildingElementProxyType xlink:href="#2IpkHFcdnD3xuZl6H52fWn"/>
+					<IfcMaterial xlink:href="#IfcMaterial_714"/>
+				</IfcBuildingElementProxy>
+				<IfcSite id="1adp27B_9CUfup2ojuKOng" Name="road parking - site" Description="A designated parking area, providing space for vehicles." ObjectPlacement="-0.50000000000000011 0 0 0 0 1 0 0 20.000000000000053 0 1 0 -1.3044532334311454e-231 4.2540207100967115e-310 0 1" CompositionType="PARTIAL" RefElevation="0"/>
+				<IfcSite id="3pnaj3EgL1cOScZHtoQhHO" Name="road river bridge - site" Description="The site of the road river bridge, connecting different areas." ObjectPlacement="-0.50000000000000022 0 0 0 0 1 0 0 30.000000000000068 0 1 0 -1.3050822522781062e-231 3.9248173497471301e+59 4.4713271769461661e-310 1" CompositionType="PARTIAL" RefElevation="0"/>
+				<IfcSite id="2Wad9UE39Fl81buLr2dp_x" Name="rail river bridge - site" Description="The site of the rail river bridge, facilitating train crossings." ObjectPlacement="0.86602540378443871 0 0 0 0 1 0 0 50 0 1 0 -5.206045410323209e-311 1.3980433117928606e-76 1.3980432860952889e-76 1" CompositionType="PARTIAL" RefElevation="0">
+					<IfcBuilding id="144_CJ8b1C7xe6fkDXe2iD" Name="Rail track" Description="Durable rail tracks, guiding trains safely along their path." ObjectType="track" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 55.000000014998356 7.7745821190283939 1 0 -1.2950179615246793e-231 6.8325904219940613e+25 4.5181782293788843e-307 1" CompositionType="ELEMENT" ElevationOfRefHeight="0" ElevationOfTerrain="0">
+						<IfcBuildingStorey id="0vMmNglnHCxwAXN15KG$Y3" Name="Rail track" Description="Durable rail tracks, guiding trains safely along their path." ObjectType="track" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 55.000000014998356 7.7745821190283939 1 0 -1.2962759990686129e-231 4.1424161911042636e-310 0 1" CompositionType="ELEMENT" Elevation="7774.5821190283941">
+							<IfcBuildingElementProxy id="3Ixq0AlaX2PR0EdMfWL49i" Name="rail" Description="Strong rails, guiding trains safely along their path." ObjectType="rail" ObjectPlacement="0.499999999999999 -2.1772560984099926e-28 0 0 1.088628049204994e-28 1 0 0 55.000000014998363 7.6025821190283942 1 0 -1.2969050171657069e-231 4.8578750594988399e-33 4.8578750597249806e-33 1" Tag="454425.1027894.2183506.2042690.955698">
+								<IfcBuildingElementProxyType xlink:href="#01Ne9sLvX2JB7MmvFUh4ey"/>
+								<IfcMaterial xlink:href="#IfcMaterial_65"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="0gOEB3nvP8w8b2x7dkCurB" Name="rail" Description="Strong rails, guiding trains safely along their path." ObjectType="rail" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 55.000000014998349 7.6025821190283942 1 0 -1.2975340270145966e-231 4.0653919399724712e-307 0 1" Tag="454425.1027894.2183506.2042690.955697">
+								<IfcBuildingElementProxyType xlink:href="#01Ne9sLvX2JB7MmvFUh4ey"/>
+								<IfcMaterial xlink:href="#IfcMaterial_65"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="2VSzSEJibEmQCf1lSBr3vL" Name="ballastbed" Description="A sturdy ballast bed, providing a stable base for railway tracks." ObjectType="ballastbed" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 55.000000014998356 7.7745821190283939 1 0 -1.2981630451116906e-231 4.8578750018329538e-33 4.8578750597249806e-33 1" Tag="454425.1027894.2183506.2042690.955699">
+								<IfcBuildingElementProxyType xlink:href="#0SJ2RiUZ18WvDG2vKWfTmD"/>
+								<IfcMaterial xlink:href="#IfcMaterial_95"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="0mApyqgbP3kwWGcMHpBgdC" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 54.910239971109895 7.5995821190284065 1 0 -1.302068617714521e-231 5.4151609188651845e-315 0 1" Tag="454425.1027894.2183506.2042690.955696">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="1gG3H$M4nC18HrcjbZfxcQ" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 54.607209668079598 7.5995821190284065 1 0 -2.7162332277828088e-310 0 0 1" Tag="454425.1027894.2183506.2042690.955703">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="2pFyoP4czDyPD7YSYV0g1I" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 54.304179365049315 7.5995821190284074 1 0 -2.9335257133437462e-310 0 0 1" Tag="454425.1027894.2183506.2042690.955704">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="0LmYrpL31BLxBAY291UUPV" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 54.001149062019017 7.5995821190284074 1 0 -1.3011250848233041e-231 4.8578750018329538e-33 4.8578750597249806e-33 1" Tag="454425.1027894.2183506.2042690.955705">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="3CF5zUVrXC$xgrsKXU$XAx" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 53.698118758988699 7.5995821190284065 1 0 -1.1951874866622962e-310 0 0 1" Tag="454425.1027894.2183506.2042690.955706">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="1jPuNq3399wwsfi63CaYtQ" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 53.395088455958408 7.5995821190284074 1 0 -1.3581568443579725e-310 0 0 1" Tag="454425.1027894.2183506.2042690.955707">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="2hC6KuMWz8T8p3DKcB74Nr" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 53.092058152928089 7.5995821190284074 1 0 -1.2964074542689064e-231 4.8578750018329538e-33 4.8578750597249806e-33 1" Tag="454425.1027894.2183506.2042690.955708">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="3ooxVTKoDDyAfZgN27B0Xt" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 52.789027849897799 7.5995821190284092 1 0 -2.8248793669486207e-310 0 0 1" Tag="454425.1027894.2183506.2042690.955709">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="3QRjVXoH17pvJxTHfLfGTz" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 52.48599754686748 7.5995821190284074 1 0 -2.9878487246442971e-310 4.8578750018329538e-33 4.8578750597249806e-33 1" Tag="454425.1027894.2183506.2042690.955710">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="1A14NvUhv2_wMj4mxmA7o0" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 52.182967243837176 7.5995821190284074 1 0 -1.2904317758977984e-231 4.8578750018329538e-33 4.8578750597249806e-33 1" Tag="454425.1027894.2183506.2042690.955711">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="0rTKpqwfH8ZvpESUY9mK0D" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 51.879936940806871 7.5995821190284092 1 0 -2.1737130165546868e-311 4.8578750018329538e-33 4.8578750597249806e-33 1" Tag="454425.1027894.2183506.2042690.955712">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="0bjxY5edf3ORsHsGFLUXnG" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 51.576906637776609 7.5995821190284092 1 0 -8.6924865471255727e-311 0 0 1" Tag="454425.1027894.2183506.2042690.955713">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="1p7IOkE9j9cwFyx4_vQUH$" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 51.273876334746269 7.5995821190284074 1 0 0 0 0 1" Tag="454425.1027894.2183506.2042690.955714">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="0X2A_iiNzCc9sTeIrZyf9i" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 50.970846031715972 7.5995821190284092 1 0 -1.0872495526034321e-311 0 0 1" Tag="454425.1027894.2183506.2042690.955715">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="240DDX4Zv7ZRBebISw7amg" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 50.667815728685667 7.5995821190284092 1 0 -1.2891737377540228e-231 -0.499999999999999 -0.86602540378443926 1" Tag="454425.1027894.2183506.2042690.955716">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="0SNcQbysLA08i6DTmPfdl$" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 50.364785425655391 7.5995821190284092 1 0 -1.4668029835237845e-310 0 0 1" Tag="454425.1027894.2183506.2042690.955717">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="1KgKJls3H9_u5Xd8c_HS7x" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 50.061755122625094 7.5995821190284092 1 0 -1.2935768691577077e-231 1 0 1" Tag="454425.1027894.2183506.2042690.955718">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="3b4O_fC9b728g3ldIvq6l2" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 49.758724819594775 7.5995821190284092 1 0 -1.3033266505626482e-231 1 0 1" Tag="454425.1027894.2183506.2042690.955719">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="20FBV5Tcj4yeFIkA119U20" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 49.455694516564463 7.599582119028411 1 0 -2.3902943958330699e-310 4.8578750018329538e-33 4.8578750597249806e-33 1" Tag="454425.1027894.2183506.2042690.955720">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="1J8_j1nRDDfQQXFNU6jh1C" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 49.152664213534166 7.599582119028411 1 0 -1.2916898134417319e-231 4.8578750018329538e-33 4.8578750597249806e-33 1" Tag="454425.1027894.2183506.2042690.955721">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="3jf03qOPH8oftXrH9IVkSa" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 48.849633910503883 7.5995821190284092 1 0 -7.0627928407157047e-311 0 0 1" Tag="454425.1027894.2183506.2042690.955722">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="2SCufMLTX7xQpijUrlgbDl" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 48.546603607473564 7.599582119028411 1 0 -1.2929478509856288e-231 -0.499999999999999 -0.86602540378443926 1" Tag="454425.1027894.2183506.2042690.955723">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="3BWkltsLT1kg_mUdP5q1Mv" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 48.243573304443252 7.599582119028411 1 0 -1.2954639254735805e-231 1 0 1" Tag="454425.1027894.2183506.2042690.955724">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="0NjD4eL$13aPRyMEU8_Pur" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 47.940543001412948 7.599582119028411 1 0 -1.2970364634429325e-231 4.8578750018329538e-33 4.8578750597249806e-33 1" Tag="454425.1027894.2183506.2042690.955725">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="0y55PkXXrAfxfuCFlVHxdf" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 47.637512698382672 7.599582119028411 1 0 -2.4446175107466965e-310 0 0 1" Tag="454425.1027894.2183506.2042690.955726">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="1DlyW6vE1AFxD298O5l6sU" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 47.334482395352346 7.599582119028411 1 0 -1.2989235191589449e-231 4.8578750018329538e-33 4.8578750597249806e-33 1" Tag="454425.1027894.2183506.2042690.955727">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="3yQtEGRLLAuwH0EvMJUSpX" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 47.031452092322034 7.599582119028411 1 0 -1.299552538530763e-231 1 0 1" Tag="454425.1027894.2183506.2042690.955728">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="2mQystxXrBl9nXWHqw58UW" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 46.728421789291744 7.5995821190284119 1 0 -1.3001815567028418e-231 1 0 1" Tag="454425.1027894.2183506.2042690.955729">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="2aNIR9HKD6lPzpHEoqth$b" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 46.425391486261461 7.599582119028411 1 0 -1.2998670538844065e-231 2.2145416843994227e+35 6.988142028500393e-315 1" Tag="454425.1027894.2183506.2042690.955730">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="2dSJ10Gxv9AR$_DmiMCtSq" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 46.122361183231135 7.5995821190284119 1 0 -2.7169431300651309e-311 0 0 1" Tag="454425.1027894.2183506.2042690.955731">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="225m02QHv3mhkTXinDpbnC" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 45.819330880200837 7.5995821190284119 1 0 -2.0100325396816391e-310 0 0 1" Tag="454425.1027894.2183506.2042690.955732">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="2HKuqlX7D0UQ6Ws7xU2Tpj" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 45.516300577170533 7.5995821190284119 1 0 -1.358156844408466e-310 0 0 1" Tag="454425.1027894.2183506.2042690.955733">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="3615LYIInAVAKMJ7MpZ30R" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.499999999999999 0 0 0 0 1 0 0 45.21327027414025 7.5995821190284119 1 0 -2.3902943958835634e-310 0 0 1" Tag="454425.1027894.2183506.2042690.955734">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+						</IfcBuildingStorey>
+					</IfcBuilding>
+				</IfcSite>
+				<IfcSite id="1$CApj9YLCeu0YyH5TXRVh" Name="road rail bridge - site" Description="The site of the road rail bridge, supporting both road and rail traffic." ObjectPlacement="-0.50000000000000067 0 0 0 0 1 0 0 40.000000000000007 0 1 0 -2.44461751079719e-310 4.8578750018329538e-33 4.8578750597249806e-33 1" CompositionType="PARTIAL" RefElevation="0">
+					<IfcElementAssembly id="00ZvlN19v73wE8JOyDmPjG" Name="highway location marker" Description="A marker indicating specific locations along the highway." ObjectType="signalassembly" ObjectPlacement="0.50000000000000067 0 0 0 0 1 0 0 34.063440936214583 -0.19999999999994189 1 0 -1.466802983574278e-310 0 0 1" Tag="454425.1027895.1031643" AssemblyPlace="SITE">
+						<IfcElementAssemblyType xlink:href="#0iAJVoiDX1LxdIktn5l5jI"/>
+					</IfcElementAssembly>
+					<IfcElementAssembly id="3E8poO$Er6gPhLg44LF$bc" Name="highway location marker" Description="A marker indicating specific locations along the highway." ObjectType="signalassembly" ObjectPlacement="-0.50000000000000067 0 0 0 0 1 0 0 45.936559063785374 -0.19999999999994189 1 0 -1.5211245572655373e-310 0 0 1" Tag="454425.1027895.1031644" AssemblyPlace="SITE">
+						<IfcElementAssemblyType xlink:href="#0iAJVoiDX1LxdIktn5l5jI"/>
+					</IfcElementAssembly>
+					<IfcBuilding id="1OAsMV9659sQQS2f3ETl_F" Name="Rail track" Description="Durable rail tracks, guiding trains safely along their path." ObjectType="track" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 45.000000014998534 7.7745821190283912 1 0 -1.3014395942470494e-231 1 0 1" CompositionType="ELEMENT" ElevationOfRefHeight="0" ElevationOfTerrain="0">
+						<IfcBuildingStorey id="1Y4VQW3SD4UO4o4Dn6KDad" Name="Rail track" Description="Durable rail tracks, guiding trains safely along their path." ObjectType="track" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 45.000000014998534 7.7745821190283912 1 0 -1.2942058885298547e-231 1 0 1" CompositionType="ELEMENT" Elevation="7774.5821190283914">
+							<IfcBuildingElementProxy id="14O93KCH5CcwgIvHrgZEXj" Name="rail" Description="Strong rails, guiding trains safely along their path." ObjectType="rail" ObjectPlacement="0.49999999999999878 -2.1772560984099926e-28 0 0 1.0886280492049936e-28 1 0 0 45.000000014998548 7.6025821190283915 1 0 -1.3026976323908616e-231 4.8578750594988399e-33 4.8578750597249806e-33 1" Tag="454425.1027895.956002.2042690.955698">
+								<IfcBuildingElementProxyType xlink:href="#01Ne9sLvX2JB7MmvFUh4ey"/>
+								<IfcMaterial xlink:href="#IfcMaterial_65"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="2$czTi6GrAHxd14aD6Qmmc" Name="rail" Description="Strong rails, guiding trains safely along their path." ObjectType="rail" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 45.000000014998534 7.6025821190283915 1 0 -2.5532638571923155e-310 1.3980433117928606e-76 1.3980432860952889e-76 1" Tag="454425.1027895.956002.2042690.955697">
+								<IfcBuildingElementProxyType xlink:href="#01Ne9sLvX2JB7MmvFUh4ey"/>
+								<IfcMaterial xlink:href="#IfcMaterial_65"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="29NeQDl9r0RPTH7F43W1He" Name="ballastbed" Description="A sturdy ballast bed, providing a stable base for railway tracks." ObjectType="ballastbed" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 45.000000014998534 7.7745821190283912 1 0 -2.7705563427469289e-310 0 0 1" Tag="454425.1027895.956002.2042690.955699">
+								<IfcBuildingElementProxyType xlink:href="#0SJ2RiUZ18WvDG2vKWfTmD"/>
+								<IfcMaterial xlink:href="#IfcMaterial_95"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="2G0mFQhK929u_6An0lBNTZ" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 44.910239971110087 7.5995821190284039 1 0 -1.3055282162272997e-231 1 0 1" Tag="454425.1027895.956002.2042690.955696">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="1Hb6PCblD2ZuvhFdwzUotD" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 44.607209668079783 7.5995821190284039 1 0 -1.5754476721791639e-310 0 0 1" Tag="454425.1027895.956002.2042690.955703">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="15Q88nz595tP5ei3_pAQgO" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 44.304179365049492 7.5995821190284047 1 0 -3.2601744087177418e-311 0 0 1" Tag="454425.1027895.956002.2042690.955704">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="0JskQH3CjFQwvVhALUzox1" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 44.001149062019195 7.5995821190284047 1 0 -4.3466378726057562e-311 0 0 1" Tag="454425.1027895.956002.2042690.955705">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="1dc6DrbT90UA9pg9Z3rs4Z" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 43.698118758988869 7.5995821190284039 1 0 -2.1186788860767646e-310 0 0 1" Tag="454425.1027895.956002.2042690.955706">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="3eijguL1P9Nfvjs$Xpqdpu" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 43.395088455958586 7.5995821190284047 1 0 -1.2986090103356448e-231 4.8578750018329538e-33 4.8578750597249806e-33 1" Tag="454425.1027895.956002.2042690.955707">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="2xpMIc_0H2iuAG4BcTIFAT" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 43.092058152928267 7.5995821190284047 1 0 -1.2992380285077053e-231 4.8578750018329538e-33 4.8578750597249806e-33 1" Tag="454425.1027895.956002.2042690.955708">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="3qB7jvnzzCdhkb6SWzwgkc" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 42.789027849897977 7.5995821190284065 1 0 -1.3001815567031342e-231 -0.49999999999999878 -0.86602540378443948 1" Tag="454425.1027895.956002.2042690.955709">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="2vvVUDLqjBxRXxfI3C2q$r" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 42.485997546867651 7.5995821190284047 1 0 -1.3008105760749888e-231 4.8578750018329538e-33 4.8578750597249806e-33 1" Tag="454425.1027895.956002.2042690.955710">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="0v0w97H9D0vhXlZ8fsd1v_" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 42.182967243837354 7.5995821190284047 1 0 -1.2894882477776651e-231 -0.499999999999999 -0.86602540378443926 1" Tag="454425.1027895.956002.2042690.955711">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="1j_ofp0_jDkQibnMsl$T_a" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 41.879936940807063 7.5995821190284065 1 0 -2.8248793669991143e-310 0 0 1" Tag="454425.1027895.956002.2042690.955712">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="3a7SkZ5Ar1xxhiVrdbOBRI" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 41.576906637776787 7.5995821190284065 1 0 -1.3048991980552208e-231 1 0 1" Tag="454425.1027895.956002.2042690.955713">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="1VhaT3K8H2lPdXb8NqCPZs" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 41.273876334746454 7.5995821190284047 1 0 -1.2888592284058104e-231 4.8578750018329538e-33 4.8578750597249806e-33 1" Tag="454425.1027895.956002.2042690.955714">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="0W$6qwCif1ePgGk6Sh$apd" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 40.97084603171615 7.5995821190284065 1 0 -1.2916898134420243e-231 4.8578750018329538e-33 4.8578750597249806e-33 1" Tag="454425.1027895.956002.2042690.955715">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="0BRh6j4b90nA0leMHsST_R" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 40.667815728685859 7.5995821190284065 1 0 -1.2923188316141032e-231 4.8578750018329538e-33 4.8578750597249806e-33 1" Tag="454425.1027895.956002.2042690.955716">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="0xoA7NQgD7lRlwTspYVfko" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 40.364785425655569 7.5995821190284065 1 0 -1.2926333416374348e-231 1 0 1" Tag="454425.1027895.956002.2042690.955717">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="0l0npIYpb0jwRcuQumw8GS" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 40.061755122625279 7.5995821190284065 1 0 -1.2938913791813683e-231 -0.49999999999999878 -0.86602540378443948 1" Tag="454425.1027895.956002.2042690.955718">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="28xYqtZ4vF0RoQVLMjR04U" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 39.75872481959496 7.5995821190284065 1 0 0 0 0 1" Tag="454425.1027895.956002.2042690.955719">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="1qU3xMaZz2Av3pVOxzfZKW" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 39.455694516564648 7.5995821190284083 1 0 -5.7583246041180466e-310 0 0 1" Tag="454425.1027895.956002.2042690.955720">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="30nYk7ZUj7BeZTiiCyQzG3" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 39.152664213534351 7.5995821190284083 1 0 -3.74837077689563e-310 0 0 1" Tag="454425.1027895.956002.2042690.955721">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="2fLDxlSJ5658K2aKlEUuO$" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 38.849633910504053 7.5995821190284065 1 0 -4.8348316505642598e-310 0 0 1" Tag="454425.1027895.956002.2042690.955722">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="3A9NNgob1BBODyEmbQaSNY" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 38.546603607473742 7.5995821190284083 1 0 -4.4545714521715472e-310 0 0 1" Tag="454425.1027895.956002.2042690.955723">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="0KPcs1y3j3YezA6xslC0pO" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 38.243573304443444 7.5995821190284083 1 0 -6.0299403211573209e-310 4.8578750018329538e-33 4.8578750597249806e-33 1" Tag="454425.1027895.956002.2042690.955724">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="3qFv979eH6S8MEUxE$yKtu" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 37.940543001413126 7.5995821190284083 1 0 -5.9212939747653574e-310 0 0 1" Tag="454425.1027895.956002.2042690.955725">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="2ea9NtvwjBGfaygNYjxAxe" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 37.637512698382849 7.5995821190284083 1 0 -4.5088944764237325e-310 0 0 1" Tag="454425.1027895.956002.2042690.955726">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="1TPGJrtGD5GuYtVCcv8tWE" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 37.334482395352524 7.5995821190284083 1 0 -5.4867090036213483e-310 0 0 1" Tag="454425.1027895.956002.2042690.955727">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="3PcU1ZuFj2Aev0J8hzhHvy" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 37.031452092322219 7.5995821190284083 1 0 -1.3096168292704765e-231 -0.49999999999999878 -0.86602540378443948 1" Tag="454425.1027895.956002.2042690.955728">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="0dRF_swOj9Z89ywNzIYxlz" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 36.728421789291922 7.5995821190284092 1 0 -3.5310783949477683e-310 0 0 1" Tag="454425.1027895.956002.2042690.955729">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="1XcDIiNyv9uuTZP4jDMfO$" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 36.425391486261645 7.5995821190284083 1 0 -1.3228262138841124e-231 -0.49999999999999878 -0.86602540378443948 1" Tag="454425.1027895.956002.2042690.955730">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="2UXPKrUxb1NPLYxy3$uCcp" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 36.12236118323132 7.5995821190284092 1 0 -1.3206246482196068e-231 1 0 1" Tag="454425.1027895.956002.2042690.955731">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="1o4sQbZYD7EfuX2weAoHYD" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 35.819330880201022 7.5995821190284092 1 0 -1.3234552320561913e-231 -0.49999999999999878 -0.86602540378443948 1" Tag="454425.1027895.956002.2042690.955732">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="1_XScBOSD3h8oErFHWZl76" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 35.516300577170718 7.5995821190284092 1 0 -1.3212536663916856e-231 -0.49999999999999878 -0.86602540378443948 1" Tag="454425.1027895.956002.2042690.955733">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+							<IfcBuildingElementProxy id="3_fqSk$jXDlgUncZWfXZMS" Name="sleeper wood" Description="Durable wooden sleepers, supporting the railway tracks." ObjectType="sleeper" ObjectPlacement="-0.49999999999999878 0 0 0 0 1 0 0 35.213270274140434 7.5995821190284092 1 0 -4.2372789666106097e-310 0 0 1" Tag="454425.1027895.956002.2042690.955734">
+								<IfcBuildingElementProxyType xlink:href="#1t6PIeEkvA3Ou$ofmC9D_1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_113"/>
+							</IfcBuildingElementProxy>
+						</IfcBuildingStorey>
+					</IfcBuilding>
+				</IfcSite>
+				<IfcSite id="2syxA9_lr7Ew2uZai3VhhS" Name="road - site" Description="A designated parking area, providing space for vehicles." ObjectPlacement="-0.50000000000000033 0 0 0 0 1 0 0 10.000000000000059 0 1 0 -4.1286326201459198e-310 1.3980433117928606e-76 1.3980432860952889e-76 1" CompositionType="PARTIAL" RefElevation="0"/>
+			</IfcSite>
+		</IfcProject>
+	</decomposition>
+</ifc>

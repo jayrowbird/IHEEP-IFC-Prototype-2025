@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ifc xmlns:xlink="http://www.w3.org/1999/xlink">
+	<header>
+		<file_description>
+			<description>ViewDefinition [ReferenceView_V1.2]</description>
+			<implementation_level>2;1</implementation_level>
+		</file_description>
+		<file_name>
+			<author/>
+			<organization/>
+			<name>Infra-Road.ifc</name>
+			<time_stamp>2024-11-14T11:09:13</time_stamp>
+			<preprocessor_version>IFC-manager for SketchUp (5.3.3)</preprocessor_version>
+			<originating_system>SketchUp 2024 (24.0.594)</originating_system>
+			<authorization>None</authorization>
+		</file_name>
+		<file_schema>
+			<schema_identifiers>IFC4</schema_identifiers>
+		</file_schema>
+	</header>
+	<units>
+		<IfcSIUnit UnitType="LENGTHUNIT" Prefix="MILLI" Name="METRE" SI_equivalent="0.001"/>
+		<IfcSIUnit UnitType="AREAUNIT" Name="SQUARE_METRE" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="VOLUMEUNIT" Name="CUBIC_METRE" SI_equivalent="1"/>
+	</units>
+	<connections/>
+	<properties>
+		<IfcPropertySet id="2Q4xyBWvz3dgy9qxW1raem" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3DxIwhVx94Yu9FnFsCCKq6" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3f9eLo5tfErPWSaeAt7Uhr" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="1jlla1gM1D0uY8yrK3MBdA" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="1dV7Eab990Kge7cEkIM10U" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="2YStdbaff6uOTBlP1moamb" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="2HbXIptMz9PgCNmB3c7ESe" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="1y6uZh3u9EzeBPbsVq2CUh" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3A4NYyXa98GO9VbbKUmbaH" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3Axq622C1Ck97s6ogHM3Lw" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3o0JkqXEnBV8fyACclSySg" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="34Rp7kt1H87u$kucHbQ1ZS" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="0mhqFsr_16NOdRA6f$WHJ3" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="1yfMvxPQf5ZxOffEiXjkBv" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="0a9Z2oq4P7sxoA261__flD" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3QyWgpgM55o9Y7Sq$upMkS" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="0LC3BzCmTBkPftEMF$mE2C" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3BBu1l5DvFYxGtQ0QdIZza" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3cOi3QPiLDdBITb5t9gCx7" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="0eFlAR80vETvojSwKqxdkz" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="1tvEwOAt170Asp8CFPl76f" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3C8b8LWGb6Yxht8dNKxQr2" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3lus4y7lv37gnEBqNHnR_n" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="2nH74$aqHEefRQqdFXf2qk" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3ZcZ5qv690PxNjpvTFv5s$" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="13RO4GGUb2OPwRMvDyu0AQ" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="0uhc4C7212ovaPmkVmtysA" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="0NLzqLR$n8fOTN9fDXZ9Gx" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="0HdeVPoN14LBZa6Puprub3" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="0KN3RAeJT4RxG_f0XgFo9v" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3Jiyk6ryz208_MeEYDtEb3" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="2sYKBhLdDFBe14Vbh7nQtl" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="true"/>
+		</IfcPropertySet>
+	</properties>
+	<quantities>
+		<IfcElementQuantity id="17$iCAm7P9QQHoK2jzOmoR" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="1.1410049218992266"/>
+			<IfcQuantityLength Name="Depth" LengthValue="80.000000000001364"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="14.262561523740088"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="2eYAw0kU13Zxl7QFrmUZKy" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="0.57050246094959889"/>
+			<IfcQuantityLength Name="Depth" LengthValue="40.000000000000192"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="14.262561523739903"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="3DEEW6oXP4gunpNwv3ZiQH" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="3.5656403809350015"/>
+			<IfcQuantityLength Name="Depth" LengthValue="249.99999999999585"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="14.262561523740242"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="0I9vkQcu165g6yD3w3Ixqt" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="1.7115073828453351"/>
+			<IfcQuantityLength Name="Depth" LengthValue="119.99999999975584"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="14.262561523740144"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="2lWEsU7orCXgF$6LhRE$ki" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="5.7600000000000726"/>
+			<IfcQuantityLength Name="Depth" LengthValue="80.000000000001279"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="71.999999999999758"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="3htTYgsPfEUxHNPhAsDbcH" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="17.99999999999962"/>
+			<IfcQuantityLength Name="Depth" LengthValue="249.99999999999656"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="71.999999999999474"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="1BzfdEWUT2ZfTwxvN7st7_" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="8.6399999999913231"/>
+			<IfcQuantityLength Name="Depth" LengthValue="120.00000000000287"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="71.999999999925961"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="1IYyT1fR5BywW$6G941C7V" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="1.1410049218992266"/>
+			<IfcQuantityLength Name="Depth" LengthValue="80.000000000001364"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="14.262561523740088"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="3U4tD7qSj3xw5d0MiO6Luk" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="0.57050246094959889"/>
+			<IfcQuantityLength Name="Depth" LengthValue="40.000000000000192"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="14.262561523739903"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="21h_w796zDIfWmCeJOR0N6" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="3.5656403809350015"/>
+			<IfcQuantityLength Name="Depth" LengthValue="249.99999999999585"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="14.262561523740242"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="2DA37tlB53lw5UdmNd3KsD" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="1.7115073828453351"/>
+			<IfcQuantityLength Name="Depth" LengthValue="119.99999999975584"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="14.262561523740144"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="3MwnMG2fLBTuhT5MxbW1z9" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="5.7600000000000726"/>
+			<IfcQuantityLength Name="Depth" LengthValue="80.000000000001279"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="71.999999999999758"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="3gJpoOqf9CTBPUpSryBtaJ" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="17.99999999999962"/>
+			<IfcQuantityLength Name="Depth" LengthValue="249.99999999999656"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="71.999999999999474"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="37Uyr0AEL82xxkjKf6Qr0i" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="8.6399999999913231"/>
+			<IfcQuantityLength Name="Depth" LengthValue="120.00000000000287"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="71.999999999925961"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="1ACPwlLeP3eu0ASkWP1b0C" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="2.0572439999941388"/>
+			<IfcQuantityLength Name="Depth" LengthValue="120.00000000000298"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="17.143699999950734"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="1KkCOyNYP9eRV7XKx2BTk8" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="0.72058399430484876"/>
+			<IfcQuantityLength Name="Depth" LengthValue="80.000000000001322"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="9.0072999288104612"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="1lzQz7Ovb258vnRXPrX1Ur" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="4.5551511641712397"/>
+			<IfcQuantityLength Name="Depth" LengthValue="395.8136006661577"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="11.508324010354572"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="3TRS6pQ0P8Yet1P9VBRTRW" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="2.0572439999941392"/>
+			<IfcQuantityLength Name="Depth" LengthValue="120.00000000000298"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="17.143699999950734"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="09SNzdn9L6$AW6KTCyp5S6" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="0.72058399430484887"/>
+			<IfcQuantityLength Name="Depth" LengthValue="80.000000000001322"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="9.0072999288104629"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="2byexagKL0AANdngIc8uEq" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="4.5551511641712406"/>
+			<IfcQuantityLength Name="Depth" LengthValue="395.8136006661577"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="11.508324010354576"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="034EeH6BrCHO98W9P0MxjR" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="5.76000000000007"/>
+			<IfcQuantityLength Name="Depth" LengthValue="80.000000000001279"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="71.99999999999973"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="2cUCb6A3DCJ9FcrG688CLy" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="17.999999999999623"/>
+			<IfcQuantityLength Name="Depth" LengthValue="249.99999999999656"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="71.999999999999488"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="3gCaYeZVv0VOf$BspyiCIC" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="8.6399999999913284"/>
+			<IfcQuantityLength Name="Depth" LengthValue="120.00000000000287"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="71.999999999926004"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="06GjtnAET4Xenam6lXgVxB" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="5.76000000000007"/>
+			<IfcQuantityLength Name="Depth" LengthValue="80.000000000001279"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="71.99999999999973"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="20c1xTVfz9qxIady72nR63" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="17.999999999999627"/>
+			<IfcQuantityLength Name="Depth" LengthValue="249.99999999999656"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="71.999999999999503"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="2CG_nh3jbDf8zp1g22ABGk" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="8.6399999999913284"/>
+			<IfcQuantityLength Name="Depth" LengthValue="120.00000000000287"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="71.999999999926004"/>
+		</IfcElementQuantity>
+	</quantities>
+	<work>
+		<schedules/>
+		<plans/>
+	</work>
+	<calendars/>
+	<types>
+		<IfcBuildingElementProxyType id="2IpkHFcdnD3xuZl6H52fWn" Name="geo-reference" Description="The reference point for transforming the local engineering coordinate system into the coordinate reference system of the underlying map." Tag="1028019" ElementType="origin" PredefinedType="USERDEFINED"/>
+		<IfcSlabType id="2EzPaFZtb3Te7t3gdE7DhG" Name="asphalt binder course - road - parking" Description="A durable asphalt binder course, forming a key layer of the parking area." Tag="1922392" ElementType="core" PredefinedType="USERDEFINED"/>
+		<IfcSlabType id="046y63wsz4DQSmQSAZEkx4" Name="road - parking - asphalt surface course" Description="A smooth asphalt surface, providing a durable driving layer in the parking area." Tag="1922431" ElementType="pavement" PredefinedType="USERDEFINED"/>
+		<IfcSlabType id="3w6WuQpZjFGwF5QPAOinuz" Name="road - parking - subgrade" Description="A stable subgrade, forming the foundation of the parking area." Tag="1922353" ElementType="subgrade" PredefinedType="USERDEFINED"/>
+		<IfcSlabType id="24HaMtLO9C$fshsAK9CnCH" Name="road parking - base course" Description="A solid base course, providing support for the parking area surface." Tag="1922322" ElementType="subgradebed" PredefinedType="USERDEFINED"/>
+		<IfcSlabType id="2RY49kCtvEu91WhX$tQv6E" Name="road - asphalt binder course" Description="A durable asphalt binder course, forming a key layer of the road." Tag="932698" ElementType="core" PredefinedType="USERDEFINED"/>
+		<IfcSlabType id="378XWUiZH0i9KZruDMskvH" Name="road - asphalt surface course" Description="A smooth asphalt surface, providing a durable driving layer." Tag="932737" ElementType="pavement" PredefinedType="USERDEFINED"/>
+		<IfcSlabType id="1_P_dxl5T9qutX4UyAiqic" Name="road - subgrade" Description="A stable subgrade, forming the foundation of the road." Tag="932628" ElementType="subgrade" PredefinedType="USERDEFINED"/>
+		<IfcSlabType id="0hZX8yo1z0mQvxKNy8tSgu" Name="road - base course" Description="A solid base course, providing support for the road surface." Tag="932667" ElementType="subgradebed" PredefinedType="USERDEFINED"/>
+		<IfcSlabType id="3ucD_5kjrChOD8t6xFPiRn" Name="road base course - bridge road" Description="A solid base course, providing support for the bridge road surface." Tag="1828121" ElementType="subgradebed" PredefinedType="USERDEFINED"/>
+		<IfcSlabType id="2rOCTfPmDCz95amGDvgELY" Name="bridge road - road asphalt binder course" Description="A durable asphalt binder course, forming a key layer of the bridge road." Tag="937696" ElementType="core" PredefinedType="USERDEFINED"/>
+		<IfcSlabType id="1YXLWnen16ivJuQMhuaOJK" Name="road subgrade - bridge road" Description="A stable subgrade, forming the foundation of the bridge road." Tag="938361" ElementType="subgrade" PredefinedType="USERDEFINED"/>
+		<IfcSlabType id="37sfwh1Dz0oBz8ltSruelK" Name="road asphalt surface course - bridge road" Description="A smooth asphalt surface, providing a durable driving layer on the bridge road." Tag="938489" ElementType="pavement" PredefinedType="USERDEFINED"/>
+		<IfcElementAssemblyType id="0iAJVoiDX1LxdIktn5l5jI" Name="highway location marker" Description="A marker indicating specific locations along the highway." Tag="1031224" ElementType="signalassembly" PredefinedType="USERDEFINED"/>
+	</types>
+	<layers/>
+	<groups/>
+	<materials>
+		<IfcMaterial id="IfcMaterial_66" Name="bitumen_dbm_generic"/>
+		<IfcMaterial id="IfcMaterial_95" Name="bitumen_asphalt_generic"/>
+		<IfcMaterial id="IfcMaterial_123" Name="bulk-material_gravel_generic"/>
+		<IfcMaterial id="IfcMaterial_151" Name="bulk-material_crushed-stone_generic"/>
+		<IfcMaterial id="IfcMaterial_242" Name="plastic_thermoplastic-road-marking-paint"/>
+		<IfcMaterial id="IfcMaterial_1006" Name="virtual_black"/>
+	</materials>
+	<decomposition>
+		<IfcProject id="2Ndyd$OSX7s9A04nc4lyye" Name="ifc silly sample scene - project" Description="Demystifying IFC with a playful scene using diverse building elements and compositions.">
+			<IfcSite id="23sFQGRy90RxVbRHD9iSE2" Name="environment - site" Description="A sample scene environment, showcasing the surrounding landscape." ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" CompositionType="COMPLEX" RefElevation="0">
+				<IfcBuildingElementProxy id="3Fit2Fad92zf2f6aWdJtF5" Name="geo-reference" Description="The reference point for transforming the local engineering coordinate system into the coordinate reference system of the underlying map." ObjectType="origin" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 -3.8356778724451594e-270 6.9514069831639612e-310 2.5147941373319449e-321 1" Tag="454425.1032696">
+					<IfcBuildingElementProxyType xlink:href="#2IpkHFcdnD3xuZl6H52fWn"/>
+					<IfcMaterial xlink:href="#IfcMaterial_1006"/>
+				</IfcBuildingElementProxy>
+				<IfcSite id="1adp27B_9CUfup2ojuKOng" Name="road parking - site" Description="A designated parking area, providing space for vehicles." ObjectPlacement="-0.50000000000000011 0 0 0 0 1 0 0 20.000000000000053 0 1 0 -3.7968589658650363e-270 6.9514069831639612e-310 3.3843496740125388e-321 1" CompositionType="PARTIAL" RefElevation="0">
+					<IfcBuilding id="2MBfH6RyP3luv6spdwrCIJ" Name="road parking - road" Description="A well-constructed road, connecting various parts of the infrastructure." ObjectPlacement="-0.50000000000000011 0 0 0 0 1 0 0 20.000000000000053 0 1 0 -1.1951577964306816e-310 1.3980433117928606e-76 1.3980432860952889e-76 1" CompositionType="COMPLEX" ElevationOfRefHeight="0" ElevationOfTerrain="0">
+						<IfcBuilding id="13nXdzaiLCcBMI_327t3$B" Name="road parking - road segment" Description="A segment of the road, connecting various parts of the infrastructure." ObjectType="roadsegment" ObjectPlacement="-0.50000000000000011 0 0 0 0 1 0 0 20.000000000000053 0 1 0 -3.8070258119406115e-270 6.9514069831639612e-310 4.6343357579908926e-321 1" CompositionType="PARTIAL" ElevationOfRefHeight="0" ElevationOfTerrain="0">
+							<IfcBuildingStorey id="2X7Dlo9gX5dgM3FX0gYZXP" Name="road - parking" Description="A designated parking area, providing space for vehicles." ObjectType="parkingbay" ObjectPlacement="-0.50000000000000011 0 0 0 0 1 0 0 20.000000000000053 0 1 0 -1.3581271606015823e-310 1.3980433117928606e-76 1.3980432860952889e-76 1" CompositionType="ELEMENT" Elevation="0">
+								<IfcSlab id="37h0T9Qob7Mw1PFsR1kVP7" Name="asphalt binder course - road - parking" Description="A durable asphalt binder course, forming a key layer of the parking area." ObjectType="core" ObjectPlacement="-0.5 0 0 0 0 1 0 0 19.999999999996092 -9.023892744153272e-17 1 0 -1.2973508177309658e-231 6.9901111369848707e-77 6.9917977585592926e-77 1" Tag="454425.1027892.955978.953073.940313.1922259">
+									<IfcPropertySet xlink:href="#2Q4xyBWvz3dgy9qxW1raem"/>
+									<IfcElementQuantity xlink:href="#17$iCAm7P9QQHoK2jzOmoR"/>
+									<IfcSlabType xlink:href="#2EzPaFZtb3Te7t3gdE7DhG"/>
+									<IfcMaterial xlink:href="#IfcMaterial_66"/>
+								</IfcSlab>
+								<IfcSlab id="2Z1Tk3YUj4bfBY5kB$H6XD" Name="road - parking - asphalt surface course" Description="A smooth asphalt surface, providing a durable driving layer in the parking area." ObjectType="pavement" ObjectPlacement="-0.5 0 0 0 0 1 0 0 19.999999999996092 -9.023892744153272e-17 1 0 -3.8153441732423441e-270 6.9514069831639612e-310 2.1837701546183097e-321 1" Tag="454425.1027892.955978.953073.940313.1922260">
+									<IfcPropertySet xlink:href="#3DxIwhVx94Yu9FnFsCCKq6"/>
+									<IfcElementQuantity xlink:href="#2eYAw0kU13Zxl7QFrmUZKy"/>
+									<IfcSlabType xlink:href="#046y63wsz4DQSmQSAZEkx4"/>
+									<IfcMaterial xlink:href="#IfcMaterial_95"/>
+								</IfcSlab>
+								<IfcSlab id="0v1ddg6Y12hvvQhtW6MY3h" Name="road - parking - subgrade" Description="A stable subgrade, forming the foundation of the parking area." ObjectType="subgrade" ObjectPlacement="-0.49999999999999978 0 0 0 0 1 0 0 19.999999999996081 -9.023892744153272e-17 1 0 8.6901840058935222e-312 8.6901837922990622e-312 8.690182791045387e-312 1" Tag="454425.1027892.955978.953073.940313.1922262">
+									<IfcPropertySet xlink:href="#3f9eLo5tfErPWSaeAt7Uhr"/>
+									<IfcElementQuantity xlink:href="#3DEEW6oXP4gunpNwv3ZiQH"/>
+									<IfcSlabType xlink:href="#3w6WuQpZjFGwF5QPAOinuz"/>
+									<IfcMaterial xlink:href="#IfcMaterial_123"/>
+								</IfcSlab>
+								<IfcSlab id="21looXrNb6n9dVVqZ0afH3" Name="road parking - base course" Description="A solid base course, providing support for the parking area surface." ObjectType="subgradebed" ObjectPlacement="-0.50000000000000011 4.7331654313260715e-30 0 0 2.1957893196695895e-30 1 0 0 19.999999999996088 -9.023892744153272e-17 1 0 -3.8306847089643365e-270 6.9514069831639612e-310 1.0820037643923299e-321 1" Tag="454425.1027892.955978.953073.940313.1922263">
+									<IfcPropertySet xlink:href="#1jlla1gM1D0uY8yrK3MBdA"/>
+									<IfcElementQuantity xlink:href="#0I9vkQcu165g6yD3w3Ixqt"/>
+									<IfcSlabType xlink:href="#24HaMtLO9C$fshsAK9CnCH"/>
+									<IfcMaterial xlink:href="#IfcMaterial_151"/>
+								</IfcSlab>
+							</IfcBuildingStorey>
+							<IfcBuildingStorey id="1rSMOsFHPCxBpVA$FlasQt" Name="road parking - shoulder" Description="The shoulder, providing additional space and support alongside the parking area." ObjectType="shoulder" ObjectPlacement="1.624412785675894e-14 1 0 0 0.49999999999998695 -2.5667961583369169e-14 0 0 26.558845726811914 -0.48999999999999111 1 0 -6.519274607349641e-311 8.6901971158661468e-312 8.6901971323086515e-312 1" CompositionType="ELEMENT" Elevation="-489.99999999999108"/>
+							<IfcBuildingStorey id="3hvQKS_3f35hrc93TD89Cw" Name="road - shoulder" Description="The shoulder, providing additional space and support alongside the road." ObjectType="shoulder" ObjectPlacement="-1.6244127856758937e-14 -1 0 0 0.49999999999998657 -2.5667961583369159e-14 0 0 23.441154273187607 -0.48999999999997701 1 0 -1.0321887988713121e-310 0 -1.0989564504304827e-308 1" CompositionType="ELEMENT" Elevation="-489.99999999997698"/>
+							<IfcBuildingStorey id="0_Qwe45Iz4axmHTXYPvOsp" Name="road  - carriageway" Description="The carriageway, providing a smooth driving surface for vehicles." ObjectType="carriageway" ObjectPlacement="-0.50000000000000011 0 0 0 0 1 0 0 20.000000000000053 0 1 0 -2.0100054889920814e-310 0 0 1" CompositionType="ELEMENT" Elevation="0">
+								<IfcSlab id="1UiPSFcDjErxwCT65xLh1S" Name="road - asphalt binder course" Description="A durable asphalt binder course, forming a key layer of the road." ObjectType="core" ObjectPlacement="-0.50000000000000011 0 0 0 0 1 0 0 19.999999999996092 -9.023892744153272e-17 1 0 -1.2494809476834294e-310 0 -1.1038455254949086e-308 1" Tag="454425.1027892.955978.953073.1922257.937648">
+									<IfcPropertySet xlink:href="#1dV7Eab990Kge7cEkIM10U"/>
+									<IfcElementQuantity xlink:href="#2lWEsU7orCXgF$6LhRE$ki"/>
+									<IfcSlabType xlink:href="#2RY49kCtvEu91WhX$tQv6E"/>
+									<IfcMaterial xlink:href="#IfcMaterial_66"/>
+								</IfcSlab>
+								<IfcSlab id="0bOiufAU17JvMAqTkdbCGK" Name="road - asphalt surface course" Description="A smooth asphalt surface, providing a durable driving layer." ObjectType="pavement" ObjectPlacement="-0.49999999999999989 0 0 0 0 1 0 0 19.999999999996096 -9.0238927441532658e-17 1 0 -3.8031183435535243e-311 1.3980433117928606e-76 1.3980432860952889e-76 1" Tag="454425.1027892.955978.953073.1922257.937649">
+									<IfcPropertySet xlink:href="#2YStdbaff6uOTBlP1moamb"/>
+									<IfcSlabType xlink:href="#378XWUiZH0i9KZruDMskvH"/>
+									<IfcMaterial xlink:href="#IfcMaterial_95"/>
+								</IfcSlab>
+								<IfcSurfaceFeature id="2E09k8p5j8Ie2cdShEa6y3" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="-0.86602540378443627 0 0 0 0 1 0 0 16.500000000000163 -9.0238927441532671e-17 1 0 -2.7162052057701714e-310 0 0 1" Tag="454425.1027892.955978.953073.1922257.937649.2051805" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSurfaceFeature id="3oFdaVamzCehZnvL2DVyTv" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="-0.86602540378443627 0 0 0 0 1 0 0 18.500000000000146 -9.0238927441532671e-17 1 0 -1.3038040107915063e-310 0 8.6901971278818233e-312 1" Tag="454425.1027892.955978.953073.1922257.937649.2051907" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSurfaceFeature id="22Oy65k6H6RQzyRYDT5O81" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="-0.86602540378443627 0 0 0 0 1 0 0 20.500000000000149 -9.0238927441532671e-17 1 0 -4.3463489746342933e-311 6.0132777795798611e-67 3.2211668914767256e-57 1" Tag="454425.1027892.955978.953073.1922257.937649.2051908" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSurfaceFeature id="3nP$zLBVH1Yxs64yX$MtCU" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="-0.86602540378443627 0 0 0 0 1 0 0 22.500000000000146 -9.0238927441532671e-17 1 0 -2.7705282688780507e-310 0 0 1" Tag="454425.1027892.955978.953073.1922257.937649.2051909" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSurfaceFeature id="3iK_B7RQX1A90d2SZn3haF" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="-0.86602540378443627 0 0 0 0 1 0 0 24.500000000000135 -9.0238927441532671e-17 1 0 -2.1734285226438776e-311 8.6901971386326917e-312 8.6901971300952374e-312 1" Tag="454425.1027892.955978.953073.1922257.937649.2051910" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSlab id="25_RTYQg9CWPpSeXsVQXRz" Name="road - subgrade" Description="A stable subgrade, forming the foundation of the road." ObjectType="subgrade" ObjectPlacement="-0.49999999999999989 0 0 0 0 1 0 0 19.999999999996092 -9.023892744153272e-17 1 0 -1.3001813997154204e-231 6.0132777795798611e-67 3.2211668914767256e-57 1" Tag="454425.1027892.955978.953073.1922257.937651">
+									<IfcPropertySet xlink:href="#2HbXIptMz9PgCNmB3c7ESe"/>
+									<IfcElementQuantity xlink:href="#3htTYgsPfEUxHNPhAsDbcH"/>
+									<IfcSlabType xlink:href="#1_P_dxl5T9qutX4UyAiqic"/>
+									<IfcMaterial xlink:href="#IfcMaterial_123"/>
+								</IfcSlab>
+								<IfcSlab id="1zA0UQopr71wWPFRVqk8vb" Name="road - base course" Description="A solid base course, providing support for the road surface." ObjectType="subgradebed" ObjectPlacement="-0.50000000000000011 4.7331654313260722e-30 0 0 2.1957893196695899e-30 1 0 0 19.999999999996092 -9.023892744153272e-17 1 0 -1.2950227040915515e-231 1 0 1" Tag="454425.1027892.955978.953073.1922257.937652">
+									<IfcPropertySet xlink:href="#1y6uZh3u9EzeBPbsVq2CUh"/>
+									<IfcElementQuantity xlink:href="#1BzfdEWUT2ZfTwxvN7st7_"/>
+									<IfcSlabType xlink:href="#0hZX8yo1z0mQvxKNy8tSgu"/>
+									<IfcMaterial xlink:href="#IfcMaterial_151"/>
+								</IfcSlab>
+							</IfcBuildingStorey>
+						</IfcBuilding>
+						<IfcBuilding id="3UW01eWGf3R9Qahji8i4XE" Name="road parking - road segment" Description="A segment of the road, connecting various parts of the infrastructure." ObjectType="roadsegment" ObjectPlacement="-0.50000000000000011 0 0 0 0 1 0 0 20.000000000000053 0 1 0 -8.1489633921285304e-311 1 0 1" CompositionType="PARTIAL" ElevationOfRefHeight="0" ElevationOfTerrain="0">
+							<IfcBuildingStorey id="3Rtyfer6f14gfdIYhSAJfS" Name="road - parking" Description="A designated parking area, providing space for vehicles." ObjectType="parkingbay" ObjectPlacement="-0.50000000000000011 0 0 0 0 1 0 0 20.000000000000053 0 1 0 -5.2142459978615299e-311 4.9406564584124654e-324 8.6901589366864502e-312 1" CompositionType="ELEMENT" Elevation="0">
+								<IfcSlab id="3n9r1K2N1DBRveA6CMqp_q" Name="asphalt binder course - road - parking" Description="A durable asphalt binder course, forming a key layer of the parking area." ObjectType="core" ObjectPlacement="-0.5 0 0 0 0 1 0 0 19.999999999996092 -9.023892744153272e-17 1 0 -1.3055280547404909e-231 1 -2.7755575615628914e-16 1" Tag="454425.1027892.955978.1922250.940313.1922259">
+									<IfcPropertySet xlink:href="#3A4NYyXa98GO9VbbKUmbaH"/>
+									<IfcElementQuantity xlink:href="#1IYyT1fR5BywW$6G941C7V"/>
+									<IfcSlabType xlink:href="#2EzPaFZtb3Te7t3gdE7DhG"/>
+									<IfcMaterial xlink:href="#IfcMaterial_66"/>
+								</IfcSlab>
+								<IfcSlab id="122iIwdi92Nu19w41eQ8OO" Name="road - parking - asphalt surface course" Description="A smooth asphalt surface, providing a durable driving layer in the parking area." ObjectType="pavement" ObjectPlacement="-0.5 0 0 0 0 1 0 0 19.999999999996092 -9.023892744153272e-17 1 0 -5.7574766289462514e-311 1.2732136283518936e-313 2.4604469162894078e-321 1" Tag="454425.1027892.955978.1922250.940313.1922260">
+									<IfcPropertySet xlink:href="#3Axq622C1Ck97s6ogHM3Lw"/>
+									<IfcElementQuantity xlink:href="#3U4tD7qSj3xw5d0MiO6Luk"/>
+									<IfcSlabType xlink:href="#046y63wsz4DQSmQSAZEkx4"/>
+									<IfcMaterial xlink:href="#IfcMaterial_95"/>
+								</IfcSlab>
+								<IfcSlab id="3IUYm3Tt58BvzwcxEk6ARA" Name="road - parking - subgrade" Description="A stable subgrade, forming the foundation of the parking area." ObjectType="subgrade" ObjectPlacement="-0.49999999999999978 0 0 0 0 1 0 0 19.999999999996081 -9.023892744153272e-17 1 0 -3.0413255458711142e-311 4.9406564584124654e-324 8.6901589366864502e-312 1" Tag="454425.1027892.955978.1922250.940313.1922262">
+									<IfcPropertySet xlink:href="#3o0JkqXEnBV8fyACclSySg"/>
+									<IfcElementQuantity xlink:href="#21h_w796zDIfWmCeJOR0N6"/>
+									<IfcSlabType xlink:href="#3w6WuQpZjFGwF5QPAOinuz"/>
+									<IfcMaterial xlink:href="#IfcMaterial_123"/>
+								</IfcSlab>
+								<IfcSlab id="3XzlKA5bz0efC2no0GJY02" Name="road parking - base course" Description="A solid base course, providing support for the parking area surface." ObjectType="subgradebed" ObjectPlacement="-0.50000000000000011 4.7331654313260715e-30 0 0 2.1957893196695895e-30 1 0 0 19.999999999996088 -9.023892744153272e-17 1 0 -1.2970363086300589e-231 1.3980433117928606e-76 1.3980432860952889e-76 1" Tag="454425.1027892.955978.1922250.940313.1922263">
+									<IfcPropertySet xlink:href="#34Rp7kt1H87u$kucHbQ1ZS"/>
+									<IfcElementQuantity xlink:href="#2DA37tlB53lw5UdmNd3KsD"/>
+									<IfcSlabType xlink:href="#24HaMtLO9C$fshsAK9CnCH"/>
+									<IfcMaterial xlink:href="#IfcMaterial_151"/>
+								</IfcSlab>
+							</IfcBuildingStorey>
+							<IfcBuildingStorey id="15Sq9FrzT9FBv27nCk5mh_" Name="road parking - shoulder" Description="The shoulder, providing additional space and support alongside the parking area." ObjectType="shoulder" ObjectPlacement="1.624412785675894e-14 1 0 0 0.49999999999998695 -2.5667961583369169e-14 0 0 26.558845726811914 -0.48999999999999111 1 0 -1.3017539443582677e-231 1 -1.5598633495983449e-14 1" CompositionType="ELEMENT" Elevation="-489.99999999999108"/>
+							<IfcBuildingStorey id="2271FKNO1DdwPAfaVP8xJd" Name="road - shoulder" Description="The shoulder, providing additional space and support alongside the road." ObjectType="shoulder" ObjectPlacement="-1.6244127856758937e-14 -1 0 0 0.49999999999998657 -2.5667961583369159e-14 0 0 23.441154273187607 -0.48999999999997701 1 0 -1.7927133401791736e-310 0 0 1" CompositionType="ELEMENT" Elevation="-489.99999999997698"/>
+							<IfcBuildingStorey id="2FFDMtF_bFt9Cn7VXimDUu" Name="road  - carriageway" Description="The carriageway, providing a smooth driving surface for vehicles." ObjectType="carriageway" ObjectPlacement="-0.50000000000000011 0 0 0 0 1 0 0 20.000000000000053 0 1 0 -1.2992378737695231e-231 -1 1.5432100042289673e-14 1" CompositionType="ELEMENT" Elevation="0">
+								<IfcSlab id="1EBv$nhkP16QpDbPgakj0R" Name="road - asphalt binder course" Description="A durable asphalt binder course, forming a key layer of the road." ObjectType="core" ObjectPlacement="-0.50000000000000011 0 0 0 0 1 0 0 19.999999999996092 -9.023892744153272e-17 1 0 -1.3026974727036799e-231 1.3980433117928606e-76 1.3980432860952889e-76 1" Tag="454425.1027892.955978.1922250.1922257.937648">
+									<IfcPropertySet xlink:href="#0mhqFsr_16NOdRA6f$WHJ3"/>
+									<IfcElementQuantity xlink:href="#3MwnMG2fLBTuhT5MxbW1z9"/>
+									<IfcSlabType xlink:href="#2RY49kCtvEu91WhX$tQv6E"/>
+									<IfcMaterial xlink:href="#IfcMaterial_66"/>
+								</IfcSlab>
+								<IfcSlab id="29INDGxC98WgiF2$uaWE$G" Name="road - asphalt surface course" Description="A smooth asphalt surface, providing a durable driving layer." ObjectType="pavement" ObjectPlacement="-0.49999999999999989 0 0 0 0 1 0 0 19.999999999996096 -9.0238927441532658e-17 1 0 -1.2945202284432914e-231 -0.50000000000000011 0.86602540378443849 1" Tag="454425.1027892.955978.1922250.1922257.937649">
+									<IfcPropertySet xlink:href="#1yfMvxPQf5ZxOffEiXjkBv"/>
+									<IfcSlabType xlink:href="#378XWUiZH0i9KZruDMskvH"/>
+									<IfcMaterial xlink:href="#IfcMaterial_95"/>
+								</IfcSlab>
+								<IfcSurfaceFeature id="2k035JfqPANO_5sd1VjpMr" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="-0.86602540378443627 0 0 0 0 1 0 0 16.500000000000163 -9.0238927441532671e-17 1 0 -2.8248514355992033e-310 0 0 1" Tag="454425.1027892.955978.1922250.1922257.937649.2051805" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSurfaceFeature id="2xFNEEiVXAoQ17T8KWBbr6" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="-0.86602540378443627 0 0 0 0 1 0 0 18.500000000000146 -9.0238927441532671e-17 1 0 -1.2979798363755913e-231 -1 1.5432100042289673e-14 1" Tag="454425.1027892.955978.1922250.1922257.937649.2051907" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSurfaceFeature id="3PBVDB_Gv65fD5rAR8Y2j0" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="-0.86602540378443627 0 0 0 0 1 0 0 20.500000000000149 -9.0238927441532671e-17 1 0 -1.303326491400663e-231 6.0132777795798611e-67 3.2211668914767256e-57 1" Tag="454425.1027892.955978.1922250.1922257.937649.2051908" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSurfaceFeature id="2ayNnO1Fn0kRTcnBmZ4Sgd" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="-0.86602540378443627 0 0 0 0 1 0 0 22.500000000000146 -9.0238927441532671e-17 1 0 -1.3048990360435102e-231 6.0132777795798611e-67 3.2211668914767256e-57 1" Tag="454425.1027892.955978.1922250.1922257.937649.2051909" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSurfaceFeature id="1PLaDnWNP2WPtJ6K0kxgur" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="-0.86602540378443627 0 0 0 0 1 0 0 24.500000000000135 -9.0238927441532671e-17 1 0 -3.5310528075682536e-310 0 0 1" Tag="454425.1027892.955978.1922250.1922257.937649.2051910" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSlab id="3l2i$KGMz4I87INjjdXvqG" Name="road - subgrade" Description="A stable subgrade, forming the foundation of the road." ObjectType="subgrade" ObjectPlacement="-0.49999999999999989 0 0 0 0 1 0 0 19.999999999996092 -9.023892744153272e-17 1 0 -5.2693926920842115e-310 0 0 1" Tag="454425.1027892.955978.1922250.1922257.937651">
+									<IfcPropertySet xlink:href="#0a9Z2oq4P7sxoA261__flD"/>
+									<IfcElementQuantity xlink:href="#3gJpoOqf9CTBPUpSryBtaJ"/>
+									<IfcSlabType xlink:href="#1_P_dxl5T9qutX4UyAiqic"/>
+									<IfcMaterial xlink:href="#IfcMaterial_123"/>
+								</IfcSlab>
+								<IfcSlab id="23fuLywRn2yQjhdXt_DTEx" Name="road - base course" Description="A solid base course, providing support for the road surface." ObjectType="subgradebed" ObjectPlacement="-0.50000000000000011 4.7331654313260722e-30 0 0 2.1957893196695899e-30 1 0 0 19.999999999996092 -9.023892744153272e-17 1 0 -5.5953310707253607e-310 0 0 1" Tag="454425.1027892.955978.1922250.1922257.937652">
+									<IfcPropertySet xlink:href="#3QyWgpgM55o9Y7Sq$upMkS"/>
+									<IfcElementQuantity xlink:href="#37Uyr0AEL82xxkjKf6Qr0i"/>
+									<IfcSlabType xlink:href="#0hZX8yo1z0mQvxKNy8tSgu"/>
+									<IfcMaterial xlink:href="#IfcMaterial_151"/>
+								</IfcSlab>
+							</IfcBuildingStorey>
+						</IfcBuilding>
+					</IfcBuilding>
+				</IfcSite>
+				<IfcSite id="3pnaj3EgL1cOScZHtoQhHO" Name="road river bridge - site" Description="The site of the road river bridge, connecting different areas." ObjectPlacement="-0.50000000000000022 0 0 0 0 1 0 0 30.000000000000068 0 1 0 -5.1064233991469051e-310 0 0 1" CompositionType="PARTIAL" RefElevation="0">
+					<IfcBuilding id="1ycqplGh55EAGDAsiDHPxX" Name="bridge road connection" Description="A connection point, linking the bridge road to other infrastructure." ObjectPlacement="-0.50000000000000022 0 0 0 0 1 0 0 30.000000000000068 0 1 0 -4.7261619573972837e-310 0 0 1" CompositionType="COMPLEX" ElevationOfRefHeight="0" ElevationOfTerrain="0">
+						<IfcBuilding id="3gVUlQBybBTR_jtpA_c89f" Name="bridge - road segment" Description="A segment of the bridge road, connecting various parts of the infrastructure." ObjectType="roadsegment" ObjectPlacement="0.50000000000002431 -2.9936039337701911e-15 0 0 1.2715140937869596e-16 1 0 0 29.99999999999978 2.6349766812927553e-14 1 0 -5.3780386110676922e-310 0 0 1" CompositionType="PARTIAL" ElevationOfRefHeight="0" ElevationOfTerrain="0">
+							<IfcBuildingStorey id="2osHTl91z1WeqT0dDvg3WD" Name="road - shoulder" Description="The shoulder, providing additional space and support alongside the road." ObjectType="shoulder" ObjectPlacement="-1.6116976447380835e-14 1 0 0 -0.50000000000001144 -2.2674357649598949e-14 0 0 23.441154273187589 -0.48999999999993754 1 0 -5.4866848408963288e-310 0 0 1" CompositionType="ELEMENT" Elevation="-489.99999999993747"/>
+							<IfcBuildingStorey id="1LsZ9dUZn5397IxXcrlrIe" Name="road - shoulder" Description="The shoulder, providing additional space and support alongside the road." ObjectType="shoulder" ObjectPlacement="1.6116976447380841e-14 -1 0 0 -0.50000000000001033 -2.2674357649598986e-14 0 0 26.558845726811867 -0.48999999999991811 1 0 -4.4002219208963305e-310 0 0 1" CompositionType="ELEMENT" Elevation="-489.99999999991809"/>
+							<IfcBuildingStorey id="3JCNkEnxX2HAIohFE8d0li" Name="road carriageway - bridge road" Description="The carriageway, providing a smooth driving surface on the bridge road." ObjectPlacement="0.50000000000002431 -2.9936039337701911e-15 0 0 1.2715140937869596e-16 1 0 0 29.99999999999978 2.6349766812927553e-14 1 0 -5.7583003636565407e-310 6.0132777795798611e-67 3.2211668914767256e-57 1" CompositionType="ELEMENT" Elevation="2.6349766812927553e-11">
+								<IfcSlab id="3nUgJwuKjBSgKNVqnDReQ_" Name="road base course - bridge road" Description="A solid base course, providing support for the bridge road surface." ObjectType="subgradebed" ObjectPlacement="0.50000000000002431 -2.9936039337701911e-15 0 0 1.2715140937869596e-16 1 0 0 26.219875000001391 4.8801683098319165e-14 1 0 -3.5853759742894062e-310 1.3980433117928606e-76 1.3980432860952889e-76 1" Tag="454425.1027893.1882581.1882584.953129.940411">
+									<IfcPropertySet xlink:href="#0LC3BzCmTBkPftEMF$mE2C"/>
+									<IfcElementQuantity xlink:href="#1ACPwlLeP3eu0ASkWP1b0C"/>
+									<IfcSlabType xlink:href="#3ucD_5kjrChOD8t6xFPiRn"/>
+									<IfcMaterial xlink:href="#IfcMaterial_151"/>
+								</IfcSlab>
+								<IfcSlab id="2B7GjowjDAyvkWvj3mcysp" Name="bridge road - road asphalt binder course" Description="A durable asphalt binder course, forming a key layer of the bridge road." ObjectType="core" ObjectPlacement="0.50000000000002431 -2.9936039337701911e-15 0 0 1.2715140937869596e-16 1 0 0 29.99999999999978 2.6349766812927553e-14 1 0 -3.6940222041180429e-310 1.3980433117928606e-76 1.3980432860952889e-76 1" Tag="454425.1027893.1882581.1882584.953129.940413">
+									<IfcPropertySet xlink:href="#3BBu1l5DvFYxGtQ0QdIZza"/>
+									<IfcElementQuantity xlink:href="#1KkCOyNYP9eRV7XKx2BTk8"/>
+									<IfcSlabType xlink:href="#2rOCTfPmDCz95amGDvgELY"/>
+									<IfcMaterial xlink:href="#IfcMaterial_66"/>
+								</IfcSlab>
+								<IfcSlab id="24yB027vXAnwvB5wEFTdUW" Name="road subgrade - bridge road" Description="A stable subgrade, forming the foundation of the bridge road." ObjectType="subgrade" ObjectPlacement="0.50000000000002431 -2.9936039337701911e-15 0 0 1.2715140937869596e-16 1 0 0 29.99999999999978 2.6349766812927553e-14 1 0 -1.3174794159668721e-231 -0.50000000000000022 0.86602540378443849 1" Tag="454425.1027893.1882581.1882584.953129.940414">
+									<IfcPropertySet xlink:href="#3cOi3QPiLDdBITb5t9gCx7"/>
+									<IfcElementQuantity xlink:href="#1lzQz7Ovb258vnRXPrX1Ur"/>
+									<IfcSlabType xlink:href="#1YXLWnen16ivJuQMhuaOJK"/>
+									<IfcMaterial xlink:href="#IfcMaterial_123"/>
+								</IfcSlab>
+								<IfcSlab id="0GfyK6YKbBBOLGVolBxAx4" Name="road asphalt surface course - bridge road" Description="A smooth asphalt surface, providing a durable driving layer on the bridge road." ObjectType="pavement" ObjectPlacement="0.50000000000002431 -2.9936039337701911e-15 0 0 1.2715140937869596e-16 1 0 0 29.99999999999978 2.6349766812927553e-14 1 0 -1.3209390167006696e-231 6.0132777795798611e-67 3.2211668914767256e-57 1" Tag="454425.1027893.1882581.1882584.953129.940412">
+									<IfcPropertySet xlink:href="#0eFlAR80vETvojSwKqxdkz"/>
+									<IfcSlabType xlink:href="#37sfwh1Dz0oBz8ltSruelK"/>
+									<IfcMaterial xlink:href="#IfcMaterial_95"/>
+								</IfcSlab>
+							</IfcBuildingStorey>
+						</IfcBuilding>
+					</IfcBuilding>
+					<IfcBuilding id="1Engm$GMHEoAv0uoo9qvMb" Name="bridge road connection" Description="A connection point, linking the bridge road to other infrastructure." ObjectPlacement="0.49999999999999428 0 0 0 0 1 0 0 29.999999999999901 2.749580119143502e-13 1 0 -1.3184229443122889e-231 -0.49999999999999989 0.8660254037844386 1" CompositionType="COMPLEX" ElevationOfRefHeight="0" ElevationOfTerrain="0">
+						<IfcBuilding id="1gawLKQN1FlOdzrZDos6Gg" Name="bridge - road segment" Description="A segment of the bridge road, connecting various parts of the infrastructure." ObjectType="roadsegment" ObjectPlacement="-0.50000000000001843 -2.9936039337701911e-15 0 0 -1.2715140937867328e-16 1 0 0 30.000000000000188 3.0130777872727774e-13 1 0 -1.3159068713240295e-231 -0.50000000000000022 0.86602540378443849 1" CompositionType="PARTIAL" ElevationOfRefHeight="0" ElevationOfTerrain="0">
+							<IfcBuildingStorey id="2$CI2UZ2nC6udOwWqZWr6C" Name="road - shoulder" Description="The shoulder, providing additional space and support alongside the road." ObjectType="shoulder" ObjectPlacement="1.6116976447380712e-14 1 0 0 0.50000000000000566 -2.2674357649598936e-14 0 0 36.558845726812329 -0.48999999999966254 1 0 -5.8669462826459501e-310 8.6901962142161057e-312 8.6901963893920211e-312 1" CompositionType="ELEMENT" Elevation="-489.99999999966252"/>
+							<IfcBuildingStorey id="2PKdE1kbL8ke7QxRRzxN_q" Name="road - shoulder" Description="The shoulder, providing additional space and support alongside the road." ObjectType="shoulder" ObjectPlacement="-1.6116976447380722e-14 -1 0 0 0.50000000000000444 -2.267435764959898e-14 0 0 33.44115427318804 -0.48999999999964305 1 0 -3.7483453708389979e-310 1 4.73449309792135e-30 1" CompositionType="ELEMENT" Elevation="-489.99999999964314"/>
+							<IfcBuildingStorey id="0UKHUh06v69wKcoKjB04ik" Name="road carriageway - bridge road" Description="The carriageway, providing a smooth driving surface on the bridge road." ObjectPlacement="-0.50000000000001843 -2.9936039337701911e-15 0 0 -1.2715140937867328e-16 1 0 0 30.000000000000188 3.0130777872727774e-13 1 0 -1.3143343176827096e-231 1 4.73449309792135e-30 1" CompositionType="ELEMENT" Elevation="3.0130777872727773e-10">
+								<IfcSlab id="2gurTQSkD1_htHRFmtcbL_" Name="road base course - bridge road" Description="A solid base course, providing support for the bridge road surface." ObjectType="subgradebed" ObjectPlacement="-0.50000000000001843 -2.9936039337701911e-15 0 0 -1.2715140937867328e-16 1 0 0 33.780124999998527 3.2375969501266934e-13 1 0 -5.9212693457538294e-310 0 0 1" Tag="454425.1027893.1886558.1882584.953129.940411">
+									<IfcPropertySet xlink:href="#1tvEwOAt170Asp8CFPl76f"/>
+									<IfcElementQuantity xlink:href="#3TRS6pQ0P8Yet1P9VBRTRW"/>
+									<IfcSlabType xlink:href="#3ucD_5kjrChOD8t6xFPiRn"/>
+									<IfcMaterial xlink:href="#IfcMaterial_151"/>
+								</IfcSlab>
+								<IfcSlab id="2CFlp691nEVAN$xmwmq4NQ" Name="bridge road - road asphalt binder course" Description="A durable asphalt binder course, forming a key layer of the bridge road." ObjectType="core" ObjectPlacement="-0.50000000000001843 -2.9936039337701911e-15 0 0 -1.2715140937867328e-16 1 0 0 30.000000000000188 3.0130777872727774e-13 1 0 -5.975592512474982e-310 0 0 1" Tag="454425.1027893.1886558.1882584.953129.940413">
+									<IfcPropertySet xlink:href="#3C8b8LWGb6Yxht8dNKxQr2"/>
+									<IfcElementQuantity xlink:href="#09SNzdn9L6$AW6KTCyp5S6"/>
+									<IfcSlabType xlink:href="#2rOCTfPmDCz95amGDvgELY"/>
+									<IfcMaterial xlink:href="#IfcMaterial_66"/>
+								</IfcSlab>
+								<IfcSlab id="2Lcv7v7Y9CDgeVSxtOixa_" Name="road subgrade - bridge road" Description="A stable subgrade, forming the foundation of the bridge road." ObjectType="subgrade" ObjectPlacement="-0.50000000000001843 -2.9936039337701911e-15 0 0 -1.2715140937867328e-16 1 0 0 30.000000000000188 3.0130777872727774e-13 1 0 -4.1829298756964985e-310 0 0 1" Tag="454425.1027893.1886558.1882584.953129.940414">
+									<IfcPropertySet xlink:href="#3lus4y7lv37gnEBqNHnR_n"/>
+									<IfcElementQuantity xlink:href="#2byexagKL0AANdngIc8uEq"/>
+									<IfcSlabType xlink:href="#1YXLWnen16ivJuQMhuaOJK"/>
+									<IfcMaterial xlink:href="#IfcMaterial_123"/>
+								</IfcSlab>
+								<IfcSlab id="3PGg5TW8D94u9cNHoKU9ai" Name="road asphalt surface course - bridge road" Description="A smooth asphalt surface, providing a durable driving layer on the bridge road." ObjectType="pavement" ObjectPlacement="-0.50000000000001843 -2.9936039337701911e-15 0 0 -1.2715140937867328e-16 1 0 0 30.000000000000188 3.0130777872727774e-13 1 0 -1.3231405800404953e-231 1.3980433117928606e-76 1.3980432860952889e-76 1" Tag="454425.1027893.1886558.1882584.953129.940412">
+									<IfcPropertySet xlink:href="#2nH74$aqHEefRQqdFXf2qk"/>
+									<IfcSlabType xlink:href="#37sfwh1Dz0oBz8ltSruelK"/>
+									<IfcMaterial xlink:href="#IfcMaterial_95"/>
+								</IfcSlab>
+							</IfcBuildingStorey>
+						</IfcBuilding>
+					</IfcBuilding>
+				</IfcSite>
+				<IfcSite id="2Wad9UE39Fl81buLr2dp_x" Name="rail river bridge - site" Description="The site of the rail river bridge, facilitating train crossings." ObjectPlacement="0.86602540378443871 0 0 0 0 1 0 0 50 0 1 0 -3.9113142493178749e-310 6.0132777795798611e-67 3.2211668914767256e-57 1" CompositionType="PARTIAL" RefElevation="0"/>
+				<IfcSite id="1$CApj9YLCeu0YyH5TXRVh" Name="road rail bridge - site" Description="The site of the road rail bridge, supporting both road and rail traffic." ObjectPlacement="-0.50000000000000067 0 0 0 0 1 0 0 40.000000000000007 0 1 0 -1.3111892259974671e-231 1.8989499645592672e-52 4.9113161534483201e-62 1" CompositionType="PARTIAL" RefElevation="0">
+					<IfcElementAssembly id="00ZvlN19v73wE8JOyDmPjG" Name="highway location marker" Description="A marker indicating specific locations along the highway." ObjectType="signalassembly" ObjectPlacement="0.50000000000000067 0 0 0 0 1 0 0 34.063440936214583 -0.19999999999994189 1 0 -4.6175157275682519e-310 4.2740540005126057e-33 2.0899580665997293e-76 1" Tag="454425.1027895.1031643" AssemblyPlace="SITE">
+						<IfcElementAssemblyType xlink:href="#0iAJVoiDX1LxdIktn5l5jI"/>
+					</IfcElementAssembly>
+					<IfcElementAssembly id="3E8poO$Er6gPhLg44LF$bc" Name="highway location marker" Description="A marker indicating specific locations along the highway." ObjectType="signalassembly" ObjectPlacement="-0.50000000000000067 0 0 0 0 1 0 0 45.936559063785374 -0.19999999999994189 1 0 -4.2915756910669034e-310 6.0132777795798611e-67 3.2211668914767256e-57 1" Tag="454425.1027895.1031644" AssemblyPlace="SITE">
+						<IfcElementAssemblyType xlink:href="#0iAJVoiDX1LxdIktn5l5jI"/>
+					</IfcElementAssembly>
+					<IfcBuilding id="1Gy5o1F_T6VxmwxJ5$xsRE" Name="road" Description="A well-constructed road, connecting various parts of the infrastructure." ObjectPlacement="0.50000000000000056 0 0 0 0 1 0 0 39.999999999999986 0 1 0 -1.3133907893372962e-231 -0.50000000000001166 0.86602540378443182 1" CompositionType="COMPLEX" ElevationOfRefHeight="0" ElevationOfTerrain="0">
+						<IfcBuilding id="1qeMYKRz11NfwG9VheT8FH" Name="road segment" Description="A segment of the road, connecting various parts of the infrastructure." ObjectType="roadsegment" ObjectPlacement="0.50000000000000056 0 0 0 0 1 0 0 39.999999999999986 0 1 0 -1.3152778526270441e-231 -0.50000000000000022 0.86602540378443849 1" CompositionType="PARTIAL" ElevationOfRefHeight="0" ElevationOfTerrain="0">
+							<IfcBuildingStorey id="3oc$qAY_95VA0MUuoAYGxh" Name="road carriageway" Description="The carriageway, providing a smooth driving surface for vehicles in the parking area." ObjectPlacement="0.50000000000000056 0 0 0 0 1 0 0 39.999999999999986 0 1 0 -2.1734284969653097e-311 0 0 1" CompositionType="ELEMENT" Elevation="0">
+								<IfcSlab id="0WFaAjgxT8whuM_s0GDVop" Name="road - asphalt binder course" Description="A durable asphalt binder course, forming a key layer of the road." ObjectType="core" ObjectPlacement="0.50000000000000056 0 0 0 0 1 0 0 40.000000000003958 -9.023892744153272e-17 1 0 -8.1489633664539151e-311 0 0 1" Tag="454425.1027895.1925011.1918136.1918138.1918143">
+									<IfcPropertySet xlink:href="#3ZcZ5qv690PxNjpvTFv5s$"/>
+									<IfcElementQuantity xlink:href="#034EeH6BrCHO98W9P0MxjR"/>
+									<IfcSlabType xlink:href="#2RY49kCtvEu91WhX$tQv6E"/>
+									<IfcMaterial xlink:href="#IfcMaterial_66"/>
+								</IfcSlab>
+								<IfcSlab id="2perTo5I50_QVZloPyhq8F" Name="road - asphalt surface course" Description="A smooth asphalt surface, providing a durable driving layer." ObjectType="pavement" ObjectPlacement="0.49999999999999994 0 0 0 0 1 0 0 40.000000000003958 -9.0238927441532658e-17 1 0 -2.9334976628097861e-310 0 0 1" Tag="454425.1027895.1925011.1918136.1918138.1918144">
+									<IfcPropertySet xlink:href="#13RO4GGUb2OPwRMvDyu0AQ"/>
+									<IfcSlabType xlink:href="#378XWUiZH0i9KZruDMskvH"/>
+									<IfcMaterial xlink:href="#IfcMaterial_95"/>
+								</IfcSlab>
+								<IfcSurfaceFeature id="2XfFRWwzD9qfMHjBFXzIXm" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="0.86602540378443638 0 0 0 0 1 0 0 43.499999999999901 -9.0238927441532671e-17 1 0 -1.2891735740032339e-231 0.50000000000000056 -0.86602540378443837 1" Tag="454425.1027895.1925011.1918136.1918138.1918144.2051805" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSurfaceFeature id="3kgqjUM35B4wJgRMa9qRTs" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="0.86602540378443638 0 0 0 0 1 0 0 41.499999999999908 -9.0238927441532671e-17 1 0 -1.2888590643548036e-231 0.86602540378443638 0.500000000000004 1" Tag="454425.1027895.1925011.1918136.1918138.1918144.2051907" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSurfaceFeature id="3YeZLOBOrEnv261fug3ZyX" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="0.86602540378443638 0 0 0 0 1 0 0 39.499999999999908 -9.0238927441532671e-17 1 0 -3.096468302710753e-310 0 0 1" Tag="454425.1027895.1925011.1918136.1918138.1918144.2051908" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSurfaceFeature id="1iXLtViPXCCwrYVlnB19Ks" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="0.86602540378443638 0 0 0 0 1 0 0 37.499999999999908 -9.0238927441532671e-17 1 0 -2.0643285494817092e-310 0 0 1" Tag="454425.1027895.1925011.1918136.1918138.1918144.2051909" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSurfaceFeature id="2VDStrHxP5_9fajgO5lJMP" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="0.86602540378443638 0 0 0 0 1 0 0 35.499999999999915 -9.0238927441532671e-17 1 0 -2.4989131579522855e-310 0 0 1" Tag="454425.1027895.1925011.1918136.1918138.1918144.2051910" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSlab id="1URig8FeLBeR9AdMrx_PFb" Name="road - subgrade" Description="A stable subgrade, forming the foundation of the road." ObjectType="subgrade" ObjectPlacement="0.50000000000000033 0 0 0 0 1 0 0 40.000000000003958 -9.023892744153272e-17 1 0 -3.2051145325397849e-310 0 0 1" Tag="454425.1027895.1925011.1918136.1918138.1918146">
+									<IfcPropertySet xlink:href="#0uhc4C7212ovaPmkVmtysA"/>
+									<IfcElementQuantity xlink:href="#2cUCb6A3DCJ9FcrG688CLy"/>
+									<IfcSlabType xlink:href="#1_P_dxl5T9qutX4UyAiqic"/>
+									<IfcMaterial xlink:href="#IfcMaterial_123"/>
+								</IfcSlab>
+								<IfcSlab id="34susoRVr6zwuxR_H7WjJP" Name="road - base course" Description="A solid base course, providing support for the road surface." ObjectType="subgradebed" ObjectPlacement="0.50000000000000056 4.7331654313260722e-30 0 0 -2.195789319669593e-30 1 0 0 40.000000000003958 -9.023892744153272e-17 1 0 -1.8470365042826676e-310 0 0 1" Tag="454425.1027895.1925011.1918136.1918138.1918147">
+									<IfcPropertySet xlink:href="#0NLzqLR$n8fOTN9fDXZ9Gx"/>
+									<IfcElementQuantity xlink:href="#3gCaYeZVv0VOf$BspyiCIC"/>
+									<IfcSlabType xlink:href="#0hZX8yo1z0mQvxKNy8tSgu"/>
+									<IfcMaterial xlink:href="#IfcMaterial_151"/>
+								</IfcSlab>
+							</IfcBuildingStorey>
+							<IfcBuildingStorey id="2bgbuMDuj3hg9k0pkgUphW" Name="road - shoulder" Description="The shoulder, providing additional space and support alongside the road." ObjectType="shoulder" ObjectPlacement="-1.6244127856758953e-14 1 0 0 -0.49999999999998701 -2.5667961583369159e-14 0 0 33.441154273188118 -0.48999999999999111 1 0 -1.303011981737074e-231 1.39804328619567e-76 1.3980432860952889e-76 1" CompositionType="ELEMENT" Elevation="-489.99999999999108"/>
+							<IfcBuildingStorey id="17coQp2iL5FhBqt0CY_3TM" Name="road - shoulder" Description="The shoulder, providing additional space and support alongside the road." ObjectType="shoulder" ObjectPlacement="1.624412785675894e-14 -1 0 0 -0.49999999999998701 -2.5667961583369153e-14 0 0 36.558845726812436 -0.48999999999997701 1 0 -1.9013592565449956e-310 0 0 1" CompositionType="ELEMENT" Elevation="-489.99999999997698"/>
+						</IfcBuilding>
+					</IfcBuilding>
+				</IfcSite>
+				<IfcSite id="2syxA9_lr7Ew2uZai3VhhS" Name="road - site" Description="A designated parking area, providing space for vehicles." ObjectPlacement="-0.50000000000000033 0 0 0 0 1 0 0 10.000000000000059 0 1 0 -1.4667734047744269e-310 0 0 1" CompositionType="PARTIAL" RefElevation="0">
+					<IfcBuilding id="1AfgOmh7nDOedEyHKWgbIw" Name="road" Description="A well-constructed road, connecting various parts of the infrastructure." ObjectPlacement="-0.50000000000000033 0 0 0 0 1 0 0 10.000000000000059 0 1 0 -2.6618824508832679e-310 1.1434997160545444e-71 6.2347253220069242e-38 1" CompositionType="COMPLEX" ElevationOfRefHeight="0" ElevationOfTerrain="0">
+						<IfcBuilding id="2pS6pdNUf5JhK0$Ap6Vb7C" Name="road segment" Description="A segment of the road, connecting various parts of the infrastructure." ObjectType="roadsegment" ObjectPlacement="-0.50000000000000033 0 0 0 0 1 0 0 10.000000000000059 0 1 0 -1.308358643960656e-231 -0.86602540378443627 -0.50000000000000389 1" CompositionType="PARTIAL" ElevationOfRefHeight="0" ElevationOfTerrain="0">
+							<IfcBuildingStorey id="2v_vgJ52rCdOoY4xv9BEGs" Name="road carriageway" Description="The carriageway, providing a smooth driving surface for vehicles in the parking area." ObjectPlacement="-0.50000000000000033 0 0 0 0 1 0 0 10.000000000000059 0 1 0 -3.3680839290895741e-310 1.3980433117928606e-76 1.3980432860952889e-76 1" CompositionType="ELEMENT" Elevation="0">
+								<IfcSlab id="1hIucSGDb5YfQIf0E4zTy_" Name="road - asphalt binder course" Description="A durable asphalt binder course, forming a key layer of the road." ObjectType="core" ObjectPlacement="-0.50000000000000033 0 0 0 0 1 0 0 9.9999999999960902 -9.023892744153272e-17 1 0 -1.2979798363604338e-231 1 0 1" Tag="454425.1918123.1918126.1918136.1918138.1918143">
+									<IfcPropertySet xlink:href="#0HdeVPoN14LBZa6Puprub3"/>
+									<IfcElementQuantity xlink:href="#06GjtnAET4Xenam6lXgVxB"/>
+									<IfcSlabType xlink:href="#2RY49kCtvEu91WhX$tQv6E"/>
+									<IfcMaterial xlink:href="#IfcMaterial_66"/>
+								</IfcSlab>
+								<IfcSlab id="2Hv0cNhjPCV8n4VnOiLlhy" Name="road - asphalt surface course" Description="A smooth asphalt surface, providing a durable driving layer." ObjectType="pavement" ObjectPlacement="-0.49999999999999972 0 0 0 0 1 0 0 9.9999999999960849 -9.0238927441532658e-17 1 0 -1.3042700173313696e-231 1 0 1" Tag="454425.1918123.1918126.1918136.1918138.1918144">
+									<IfcPropertySet xlink:href="#0KN3RAeJT4RxG_f0XgFo9v"/>
+									<IfcSlabType xlink:href="#378XWUiZH0i9KZruDMskvH"/>
+									<IfcMaterial xlink:href="#IfcMaterial_95"/>
+								</IfcSlab>
+								<IfcSurfaceFeature id="3736_hvIzFCRBgB1NzaIAG" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="-0.8660254037844366 0 0 0 0 1 0 0 6.5000000000001439 -9.0238927441532671e-17 1 0 -9.2354256647481865e-311 1 0 1" Tag="454425.1918123.1918126.1918136.1918138.1918144.2051805" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSurfaceFeature id="1HY$KHGVb0Y9iLwHsRZfqX" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="-0.8660254037844366 0 0 0 0 1 0 0 8.5000000000001315 -9.0238927441532671e-17 1 0 -1.3011249280456786e-231 -1 1.5543122344752192e-14 1" Tag="454425.1918123.1918126.1918136.1918138.1918144.2051907" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSurfaceFeature id="3SstlkwwP25gbEsTjECubM" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="-0.8660254037844366 0 0 0 0 1 0 0 10.500000000000137 -9.0238927441532671e-17 1 0 -2.1186517162026642e-310 0 0 1" Tag="454425.1918123.1918126.1918136.1918138.1918144.2051908" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSurfaceFeature id="0foyckKPj2OwIIYCa8mzqS" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="-0.8660254037844366 0 0 0 0 1 0 0 12.500000000000137 -9.0238927441532671e-17 1 0 -1.2907461180462012e-231 -4.6629367034256575e-15 1 1" Tag="454425.1918123.1918126.1918136.1918138.1918144.2051909" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSurfaceFeature id="1Fxh8JXAj0VPU5VkvOYvkk" Name="road - line marking" Description="Clear and precise line markings, guiding traffic safely." ObjectType="linemarking" ObjectPlacement="-0.8660254037844366 0 0 0 0 1 0 0 14.500000000000128 -9.0238927441532671e-17 1 0 -5.4328112472539494e-311 0 0 1" Tag="454425.1918123.1918126.1918136.1918138.1918144.2051910" PredefinedType="USERDEFINED">
+									<IfcMaterial xlink:href="#IfcMaterial_242"/>
+								</IfcSurfaceFeature>
+								<IfcSlab id="1IhMwsHkj23Pk9puusHUBF" Name="road - subgrade" Description="A stable subgrade, forming the foundation of the road." ObjectType="subgrade" ObjectPlacement="-0.50000000000000011 0 0 0 0 1 0 0 9.9999999999960902 -9.023892744153272e-17 1 0 -2.3359437614024962e-310 1.39804328619567e-76 1.3980432860952889e-76 1" Tag="454425.1918123.1918126.1918136.1918138.1918146">
+									<IfcPropertySet xlink:href="#3Jiyk6ryz208_MeEYDtEb3"/>
+									<IfcElementQuantity xlink:href="#20c1xTVfz9qxIady72nR63"/>
+									<IfcSlabType xlink:href="#1_P_dxl5T9qutX4UyAiqic"/>
+									<IfcMaterial xlink:href="#IfcMaterial_123"/>
+								</IfcSlab>
+								<IfcSlab id="0JHBQuEiP0nvPYpJMf4bmS" Name="road - base course" Description="A solid base course, providing support for the road surface." ObjectType="subgradebed" ObjectPlacement="-0.50000000000000033 4.7331654313260729e-30 0 0 2.195789319669592e-30 1 0 0 9.9999999999960902 -9.023892744153272e-17 1 0 -1.0865119630246079e-310 0 0 1" Tag="454425.1918123.1918126.1918136.1918138.1918147">
+									<IfcPropertySet xlink:href="#2sYKBhLdDFBe14Vbh7nQtl"/>
+									<IfcElementQuantity xlink:href="#2CG_nh3jbDf8zp1g22ABGk"/>
+									<IfcSlabType xlink:href="#0hZX8yo1z0mQvxKNy8tSgu"/>
+									<IfcMaterial xlink:href="#IfcMaterial_151"/>
+								</IfcSlab>
+							</IfcBuildingStorey>
+							<IfcBuildingStorey id="0YqCWlEOfFLOP9cWpIfWnw" Name="road - shoulder" Description="The shoulder, providing additional space and support alongside the road." ObjectType="shoulder" ObjectPlacement="1.6244127856758937e-14 1 0 0 0.4999999999999869 -2.5667961583369146e-14 0 0 16.558845726811924 -0.48999999999999111 1 0 -1.3080441367117738e-231 -0.50000000000000033 0.8660254037844386 1" CompositionType="ELEMENT" Elevation="-489.99999999999108"/>
+							<IfcBuildingStorey id="2Jmv7aVW59tgvJy3nmB5rm" Name="road - shoulder" Description="The shoulder, providing additional space and support alongside the road." ObjectType="shoulder" ObjectPlacement="-1.6244127856758931e-14 -1 0 0 0.4999999999999869 -2.5667961583369143e-14 0 0 13.441154273187614 -0.48999999999997701 1 0 -1.3023829630400909e-231 0.86602540378443638 0.500000000000004 1" CompositionType="ELEMENT" Elevation="-489.99999999997698"/>
+						</IfcBuilding>
+					</IfcBuilding>
+				</IfcSite>
+			</IfcSite>
+		</IfcProject>
+	</decomposition>
+</ifc>

@@ -1,0 +1,1 @@
+Output folder containing ifc converted to *.obj and *.xml files

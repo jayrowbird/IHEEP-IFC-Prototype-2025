@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ifc xmlns:xlink="http://www.w3.org/1999/xlink">
+	<header>
+		<file_description>
+			<description>ViewDefinition [ReferenceView_V1.2]</description>
+			<implementation_level>2;1</implementation_level>
+		</file_description>
+		<file_name>
+			<author/>
+			<organization/>
+			<name>Infra-Plumbing.ifc</name>
+			<time_stamp>2025-02-27T11:09:14</time_stamp>
+			<preprocessor_version>IFC-manager for SketchUp (5.3.3)</preprocessor_version>
+			<originating_system>SketchUp 2024 (24.0.594)</originating_system>
+			<authorization>None</authorization>
+		</file_name>
+		<file_schema>
+			<schema_identifiers>IFC4</schema_identifiers>
+		</file_schema>
+	</header>
+	<units>
+		<IfcSIUnit UnitType="LENGTHUNIT" Prefix="MILLI" Name="METRE" SI_equivalent="0.001"/>
+		<IfcSIUnit UnitType="AREAUNIT" Name="SQUARE_METRE" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="VOLUMEUNIT" Name="CUBIC_METRE" SI_equivalent="1"/>
+	</units>
+	<connections/>
+	<properties/>
+	<quantities/>
+	<work>
+		<schedules/>
+		<plans/>
+	</work>
+	<calendars/>
+	<types>
+		<IfcBuildingElementProxyType id="2IpkHFcdnD3xuZl6H52fWn" Name="geo-reference" Description="The reference point for transforming the local engineering coordinate system into the coordinate reference system of the underlying map." Tag="1028019" ElementType="origin" PredefinedType="USERDEFINED"/>
+		<IfcPipeSegmentType id="080SXXxhz7KRyQXS17Pb41" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." Tag="1092611" ElementType="culvert" PredefinedType="CULVERT"/>
+		<IfcElementAssemblyType id="0Cxw9qzhD2BwnWsRyOtOQF" Name="sewer manhole" Description="A manhole, providing access to the sewer system." Tag="1244477" ElementType="accessory_assembly" PredefinedType="ACCESSORY_ASSEMBLY"/>
+		<IfcElementAssemblyType id="0iAJVoiDX1LxdIktn5l5jI" Name="highway location marker" Description="A marker indicating specific locations along the highway." Tag="1031224" ElementType="signalassembly" PredefinedType="USERDEFINED"/>
+	</types>
+	<layers/>
+	<groups>
+		<IfcDistributionSystem id="2kFeQrGC1AX8h9FmQxZHo0" Name="road wastewater system" Description="A comprehensive wastewater system, ensuring efficient sewage management." PredefinedType="SEWAGE">
+			<IfcPipeSegment id="1F4KLUGJf1aAa0YXxTvOR5" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.86602540378443871 8.1185058675714641e-16 0 0 -0.50000000000000011 -2.7755575615628957e-17 0 0 21.249999999996071 -1.7499999999999976 1 0 -1.288545373180234e-231 3.3720844348727079e-307 0 1" Tag="454425.1027892.1880634.1093597">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="0uGYOC9Nz33PfGM5uuVHhW" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.86602540378443871 8.1185058675714641e-16 0 0 -0.50000000000000011 -2.7755575615628957e-17 0 0 24.999999999996067 -1.7499999999999976 1 0 -1.292633995160538e-231 6.2421329721153166e-315 0 1" Tag="454425.1027892.1880634.1093594">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="259jK4QKD3OPEdfCl4GH_l" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.86602540378443871 8.1185058675714641e-16 0 0 -0.50000000000000011 -2.7755575615628957e-17 0 0 22.499999999996053 -1.749999999999998 1 0 -1.2970371170410921e-231 3.8188825979877859e-16 -7.1696102001680553e-16 1" Tag="454425.1027892.1880634.1093596">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="0_AaoqH0fA_wWg2hQ6QoLY" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.86602540378443871 8.1185058675714641e-16 0 0 -0.50000000000000011 -2.7755575615628957e-17 0 0 16.249999999996074 -1.7499999999999976 1 0 -1.2973516263895785e-231 1.6393470872046628e-312 0 1" Tag="454425.1027892.1880634.1093601">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="0X_fsZ0Kj9a8olHcZQNbJM" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.86602540378443871 8.1185058675714641e-16 0 0 -0.50000000000000011 -2.7755575615628957e-17 0 0 23.74999999999606 -1.7499999999999976 1 0 -1.299867699077894e-231 3.8188825979877859e-16 -7.1696102001680553e-16 1" Tag="454425.1027892.1880634.1093595">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="3Awuj1sjH8ERw7F1J6oBZs" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.86602540378443871 8.1185058675714641e-16 0 0 -0.50000000000000011 -2.7755575615628957e-17 0 0 17.499999999996067 -1.7499999999999976 1 0 -1.3001822084263816e-231 3.8188825979877859e-16 -7.1696102001680553e-16 1" Tag="454425.1027892.1880634.1093600">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="3D4ahkhjP7dujyPNisZ2F$" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.86602540378443871 8.1185058675714641e-16 0 0 -0.50000000000000011 -2.7755575615628957e-17 0 0 19.999999999996067 -1.7499999999999976 1 0 -1.3004967177748679e-231 -0.50000000000000022 0.86602540378443849 1" Tag="454425.1027892.1880634.1093598">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="0FQ6pMwzXBJucYaRTqfuw2" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.86602540378443871 8.1185058675714641e-16 0 0 -0.50000000000000011 -2.7755575615628957e-17 0 0 18.749999999996064 -1.7499999999999976 1 0 -1.3030127952622865e-231 0.86602540378443815 0.50000000000000078 1" Tag="454425.1027892.1880634.1093599">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcElementAssembly id="0dEBwmfnvBq9OyNfYNowGR" Name="sewer manhole" Description="A manhole, providing access to the sewer system." ObjectType="accessory_assembly" ObjectPlacement="-0.5 0 0 0 0 1 0 0 34.81250000000319 4.6924242269597015e-15 1 0 -1.3014402459703677e-231 1.4320491050477792e+74 4.0513382958982217e-322 1" Tag="454425.1027893.2181697.2182545" AssemblyPlace="SITE">
+				<IfcElementAssemblyType xlink:href="#0Cxw9qzhD2BwnWsRyOtOQF"/>
+			</IfcElementAssembly>
+			<IfcElementAssembly id="0xp5S6qvHAWPQZNi_oyNRF" Name="sewer manhole" Description="A manhole, providing access to the sewer system." ObjectType="accessory_assembly" ObjectPlacement="0.5000000000000242 -2.9936039337701919e-15 0 0 1.2715140937869635e-16 1 0 0 25.187499999996497 5.9918647821177731e-14 1 0 -1.3023837765653126e-231 1.3980433117928606e-76 1.3980432860952889e-76 1" Tag="454425.1027893.2181697.2182544" AssemblyPlace="SITE">
+				<IfcElementAssemblyType xlink:href="#0Cxw9qzhD2BwnWsRyOtOQF"/>
+			</IfcElementAssembly>
+			<IfcPipeSegment id="0yh8Z9_qzCIgcsXg7r4Ix6" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="-0.86602540378443793 8.1185058675714602e-16 0 0 0.50000000000000122 -2.775557561562895e-17 0 0 38.750000000003986 -1.7499999999999976 1 0 -1.2939731171348009e-231 -3.8188825979877953e-16 7.1696102001680474e-16 1" Tag="454425.1027895.2182917.1093597">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="1PI8m4Ts17Z8hvG889Pb1i" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="-0.86602540378443793 8.1185058675714602e-16 0 0 0.50000000000000122 -2.775557561562895e-17 0 0 35.000000000003979 -1.7499999999999976 1 0 -2.458735675727999e-310 1.8989499645592672e-52 4.9113161534483201e-62 1" Tag="454425.1027895.2182917.1093594">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="398dvTdH9FKwML6pMEemhK" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="-0.86602540378443793 8.1185058675714602e-16 0 0 0.50000000000000122 -2.775557561562895e-17 0 0 37.500000000004 -1.749999999999998 1 0 -1.2974327107824361e-231 -3.8188825979877953e-16 7.1696102001680474e-16 1" Tag="454425.1027895.2182917.1093596">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="0tZgj2n4j7neNsQ08k3WsT" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="-0.86602540378443793 8.1185058675714602e-16 0 0 0.50000000000000122 -2.775557561562895e-17 0 0 43.750000000003993 -1.7499999999999976 1 0 -1.2961746804371411e-231 3.8188825979877859e-16 -7.1696102001680533e-16 1" Tag="454425.1027895.2182917.1093601">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="22Xr2mF15CbQCVR$W_$VLh" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="-0.86602540378443793 8.1185058675714602e-16 0 0 0.50000000000000122 -2.775557561562895e-17 0 0 36.250000000003993 -1.7499999999999976 1 0 -1.3056099524184444e-231 -3.8188825979877953e-16 7.1696102001680474e-16 1" Tag="454425.1027895.2182917.1093595">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="1wwTT4jtX3C9e82mYC6YGT" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="-0.86602540378443793 8.1185058675714602e-16 0 0 0.50000000000000122 -2.775557561562895e-17 0 0 42.500000000004 -1.7499999999999976 1 0 6.8400690873039548e-312 6.8400688858832723e-312 6.8400658966675392e-312 1" Tag="454425.1027895.2182917.1093600">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="1GXiy3xWf0fOQdC$gO8JfW" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="-0.86602540378443793 8.1185058675714602e-16 0 0 0.50000000000000122 -2.775557561562895e-17 0 0 40.000000000003986 -1.7499999999999976 1 0 -1.0463361774114727e-310 1.8989499645592672e-52 4.9113161534483201e-62 1" Tag="454425.1027895.2182917.1093598">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="0URFt4JXXD6OjZF8OrkR8N" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="-0.86602540378443793 8.1185058675714602e-16 0 0 0.50000000000000122 -2.775557561562895e-17 0 0 41.250000000004 -1.7499999999999976 1 0 -1.6438888548738907e-310 1.8989499645592672e-52 4.9113161534483201e-62 1" Tag="454425.1027895.2182917.1093599">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="1kpVA_DFf3PRJR$l8yqtLr" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.8660254037844386 8.1185058675714611e-16 0 0 -0.50000000000000011 -2.7755575615628944e-17 0 0 11.249999999996076 -1.7499999999999976 1 0 -6.6607391322061229e-311 6.0132777795798611e-67 3.2211668914767256e-57 1" Tag="454425.1918123.1918133.1093597">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="3ctB5z6nHCoQBWFJYnFhI5" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.8660254037844386 8.1185058675714611e-16 0 0 -0.50000000000000011 -2.7755575615628944e-17 0 0 14.999999999996074 -1.7499999999999976 1 0 -2.8581247794680818e-311 1.8989499645592672e-52 4.9113161534483201e-62 1" Tag="454425.1918123.1918133.1093594">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="11LWvWX7HAOghcDUC_Fsn5" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.8660254037844386 8.1185058675714611e-16 0 0 -0.50000000000000011 -2.7755575615628944e-17 0 0 12.499999999996056 -1.749999999999998 1 0 -1.2986907483263536e-231 3.8188825979877859e-16 -7.1696102001680533e-16 1" Tag="454425.1918123.1918133.1093596">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="2L8jfzclb09OjhbeQoBDvs" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.8660254037844386 8.1185058675714611e-16 0 0 -0.50000000000000011 -2.7755575615628944e-17 0 0 6.249999999996076 -1.7499999999999976 1 0 -1.2895699857310256e-231 3.8188825979877859e-16 -7.1696102001680533e-16 1" Tag="454425.1918123.1918133.1093601">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="0SESIjUgvFsOoEqvCaV5Br" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.8660254037844386 8.1185058675714611e-16 0 0 -0.50000000000000011 -2.7755575615628944e-17 0 0 13.749999999996064 -1.7499999999999976 1 0 -1.8611813404312708e-310 6.8328264469081769e-312 6.8328264478073763e-312 1" Tag="454425.1918123.1918133.1093595">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="1FDcvNA_L4dfRDGP$UNpz1" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.8660254037844386 8.1185058675714611e-16 0 0 -0.50000000000000011 -2.7755575615628944e-17 0 0 7.4999999999960689 -1.7499999999999976 1 0 -1.2971182013964573e-231 -3.8188825979877953e-16 7.1696102001680474e-16 1" Tag="454425.1918123.1918133.1093600">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="0RPLlDbKvCJwFzsj8RPg4X" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.8660254037844386 8.1185058675714611e-16 0 0 -0.50000000000000011 -2.7755575615628944e-17 0 0 9.9999999999960707 -1.7499999999999976 1 0 -1.4265976126852768e-310 1.8989499645592672e-52 4.9113161534483201e-62 1" Tag="454425.1918123.1918133.1093598">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+			<IfcPipeSegment id="1PYbWto7LA0hTpEdNPg6Df" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.8660254037844386 8.1185058675714611e-16 0 0 -0.50000000000000011 -2.7755575615628944e-17 0 0 8.7499999999960671 -1.7499999999999976 1 0 -1.2936586077488256e-231 -3.8188825979877953e-16 7.1696102001680474e-16 1" Tag="454425.1918123.1918133.1093599">
+				<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+				<IfcMaterial xlink:href="#IfcMaterial_38"/>
+			</IfcPipeSegment>
+		</IfcDistributionSystem>
+	</groups>
+	<materials>
+		<IfcMaterial id="IfcMaterial_38" Name="concrete_reinforced_prefab"/>
+		<IfcMaterial id="IfcMaterial_340" Name="virtual_black"/>
+	</materials>
+	<decomposition>
+		<IfcProject id="2Ndyd$OSX7s9A04nc4lyye" Name="ifc silly sample scene - project" Description="Demystifying IFC with a playful scene using diverse building elements and compositions.">
+			<IfcSite id="23sFQGRy90RxVbRHD9iSE2" Name="environment - site" Description="A sample scene environment, showcasing the surrounding landscape." ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" CompositionType="COMPLEX" RefElevation="0">
+				<IfcBuildingElementProxy id="3Fit2Fad92zf2f6aWdJtF5" Name="geo-reference" Description="The reference point for transforming the local engineering coordinate system into the coordinate reference system of the underlying map." ObjectType="origin" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 -4.8909937937456935e-311 0 1.6798231958602383e-322 1" Tag="454425.1032696">
+					<IfcBuildingElementProxyType xlink:href="#2IpkHFcdnD3xuZl6H52fWn"/>
+					<IfcMaterial xlink:href="#IfcMaterial_340"/>
+				</IfcBuildingElementProxy>
+				<IfcSite id="1adp27B_9CUfup2ojuKOng" Name="road parking - site" Description="A designated parking area, providing space for vehicles." ObjectPlacement="-0.50000000000000011 0 0 0 0 1 0 0 20.000000000000053 0 1 0 -1.2992386826304653e-231 5.4151609188651845e-315 0 1" CompositionType="PARTIAL" RefElevation="0">
+					<IfcPipeSegment id="1F4KLUGJf1aAa0YXxTvOR5" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.86602540378443871 8.1185058675714641e-16 0 0 -0.50000000000000011 -2.7755575615628957e-17 0 0 21.249999999996071 -1.7499999999999976 1 0 -1.288545373180234e-231 3.3720844348727079e-307 0 1" Tag="454425.1027892.1880634.1093597">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="0uGYOC9Nz33PfGM5uuVHhW" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.86602540378443871 8.1185058675714641e-16 0 0 -0.50000000000000011 -2.7755575615628957e-17 0 0 24.999999999996067 -1.7499999999999976 1 0 -1.292633995160538e-231 6.2421329721153166e-315 0 1" Tag="454425.1027892.1880634.1093594">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="259jK4QKD3OPEdfCl4GH_l" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.86602540378443871 8.1185058675714641e-16 0 0 -0.50000000000000011 -2.7755575615628957e-17 0 0 22.499999999996053 -1.749999999999998 1 0 -1.5212374488925159e-310 1.8989499645592672e-52 4.9113161534483201e-62 1" Tag="454425.1027892.1880634.1093596">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="0_AaoqH0fA_wWg2hQ6QoLY" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.86602540378443871 8.1185058675714641e-16 0 0 -0.50000000000000011 -2.7755575615628957e-17 0 0 16.249999999996074 -1.7499999999999976 1 0 -1.2973516263895785e-231 1.6393470872046628e-312 0 1" Tag="454425.1027892.1880634.1093601">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="0X_fsZ0Kj9a8olHcZQNbJM" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.86602540378443871 8.1185058675714641e-16 0 0 -0.50000000000000011 -2.7755575615628957e-17 0 0 23.74999999999606 -1.7499999999999976 1 0 -2.0101451204693905e-310 1.8989499645592672e-52 4.9113161534483201e-62 1" Tag="454425.1027892.1880634.1093595">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="3Awuj1sjH8ERw7F1J6oBZs" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.86602540378443871 8.1185058675714641e-16 0 0 -0.50000000000000011 -2.7755575615628957e-17 0 0 17.499999999996067 -1.7499999999999976 1 0 -2.0644682353832148e-310 3.7666033118313303e-310 0 1" Tag="454425.1027892.1880634.1093600">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="3D4ahkhjP7dujyPNisZ2F$" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.86602540378443871 8.1185058675714641e-16 0 0 -0.50000000000000011 -2.7755575615628957e-17 0 0 19.999999999996067 -1.7499999999999976 1 0 -2.1187913502968414e-310 1.8989499645592672e-52 4.9113161534483201e-62 1" Tag="454425.1027892.1880634.1093598">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="0FQ6pMwzXBJucYaRTqfuw2" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.86602540378443871 8.1185058675714641e-16 0 0 -0.50000000000000011 -2.7755575615628957e-17 0 0 18.749999999996064 -1.7499999999999976 1 0 -2.5533767358773433e-310 1.3980433117928606e-76 1.3980432860952889e-76 1" Tag="454425.1027892.1880634.1093599">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+				</IfcSite>
+				<IfcSite id="3pnaj3EgL1cOScZHtoQhHO" Name="road river bridge - site" Description="The site of the road river bridge, connecting different areas." ObjectPlacement="-0.50000000000000022 0 0 0 0 1 0 0 30.000000000000068 0 1 0 -1.3008112272733251e-231 -0.50000000000000022 0.86602540378443849 1" CompositionType="PARTIAL" RefElevation="0">
+					<IfcElementAssembly id="0dEBwmfnvBq9OyNfYNowGR" Name="sewer manhole" Description="A manhole, providing access to the sewer system." ObjectType="accessory_assembly" ObjectPlacement="-0.5 0 0 0 0 1 0 0 34.81250000000319 4.6924242269597015e-15 1 0 -1.3014402459703677e-231 1.4320491050477792e+74 4.0513382958982217e-322 1" Tag="454425.1027893.2181697.2182545" AssemblyPlace="SITE">
+						<IfcElementAssemblyType xlink:href="#0Cxw9qzhD2BwnWsRyOtOQF"/>
+					</IfcElementAssembly>
+					<IfcElementAssembly id="0xp5S6qvHAWPQZNi_oyNRF" Name="sewer manhole" Description="A manhole, providing access to the sewer system." ObjectType="accessory_assembly" ObjectPlacement="0.5000000000000242 -2.9936039337701919e-15 0 0 1.2715140937869635e-16 1 0 0 25.187499999996497 5.9918647821177731e-14 1 0 -1.3023837765653126e-231 1.3980433117928606e-76 1.3980432860952889e-76 1" Tag="454425.1027893.2181697.2182544" AssemblyPlace="SITE">
+						<IfcElementAssemblyType xlink:href="#0Cxw9qzhD2BwnWsRyOtOQF"/>
+					</IfcElementAssembly>
+					<IfcBuilding id="3vzNAxKB5AJA_Ehx4miINx" Name="road river bridge" Description="A sturdy bridge, spanning the river and connecting roads." ObjectType="girder" ObjectPlacement="0.86602540378443815 0 0 0 0 1 0 0 30.000000000000178 0.24232103870816185 1 0 -1.3033273047607437e-231 6.6613381477509392e-16 -1 1" CompositionType="ELEMENT" ElevationOfRefHeight="0" ElevationOfTerrain="0"/>
+				</IfcSite>
+				<IfcSite id="2Wad9UE39Fl81buLr2dp_x" Name="rail river bridge - site" Description="The site of the rail river bridge, facilitating train crossings." ObjectPlacement="0.86602540378443871 0 0 0 0 1 0 0 50 0 1 0 -1.2888598824433258e-231 1.0371695818203773e+98 0 1" CompositionType="PARTIAL" RefElevation="0">
+					<IfcBuilding id="2kjWGt90HF_gBQxs$Lsfkw" Name="rail bridge" Description="A strong rail bridge, supporting trains as they cross over." ObjectType="arched" ObjectPlacement="0.50000000000000022 0 0 0 0 1 0 0 50.000000000000092 0 1 0 -2.1327965329265825e-310 6.8400651946200191e-312 6.8400651957267261e-312 1" CompositionType="ELEMENT" ElevationOfRefHeight="0" ElevationOfTerrain="0"/>
+				</IfcSite>
+				<IfcSite id="1$CApj9YLCeu0YyH5TXRVh" Name="road rail bridge - site" Description="The site of the road rail bridge, supporting both road and rail traffic." ObjectPlacement="-0.50000000000000067 0 0 0 0 1 0 0 40.000000000000007 0 1 0 -1.7716623516772284e-311 6.8400757445420931e-312 6.84007581473894e-312 1" CompositionType="PARTIAL" RefElevation="0">
+					<IfcElementAssembly id="00ZvlN19v73wE8JOyDmPjG" Name="highway location marker" Description="A marker indicating specific locations along the highway." ObjectType="signalassembly" ObjectPlacement="0.50000000000000067 0 0 0 0 1 0 0 34.063440936214583 -0.19999999999994189 1 0 -6.117507918309708e-311 6.8400650452145678e-312 6.8400650219737198e-312 1" Tag="454425.1027895.1031643" AssemblyPlace="SITE">
+						<IfcElementAssemblyType xlink:href="#0iAJVoiDX1LxdIktn5l5jI"/>
+					</IfcElementAssembly>
+					<IfcElementAssembly id="3E8poO$Er6gPhLg44LF$bc" Name="highway location marker" Description="A marker indicating specific locations along the highway." ObjectType="signalassembly" ObjectPlacement="-0.50000000000000067 0 0 0 0 1 0 0 45.936559063785374 -0.19999999999994189 1 0 -1.2889409669590669e-231 -0.50000000000000067 0.86602540378443826 1" Tag="454425.1027895.1031644" AssemblyPlace="SITE">
+						<IfcElementAssemblyType xlink:href="#0iAJVoiDX1LxdIktn5l5jI"/>
+					</IfcElementAssembly>
+					<IfcPipeSegment id="0yh8Z9_qzCIgcsXg7r4Ix6" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="-0.86602540378443793 8.1185058675714602e-16 0 0 0.50000000000000122 -2.775557561562895e-17 0 0 38.750000000003986 -1.7499999999999976 1 0 -9.9201305602202884e-311 1.39804328619567e-76 1.3980432860952889e-76 1" Tag="454425.1027895.2182917.1093597">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="1PI8m4Ts17Z8hvG889Pb1i" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="-0.86602540378443793 8.1185058675714602e-16 0 0 0.50000000000000122 -2.775557561562895e-17 0 0 35.000000000003979 -1.7499999999999976 1 0 -2.458735675727999e-310 6.8328264469081769e-312 6.8328264470761592e-312 1" Tag="454425.1027895.2182917.1093594">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="398dvTdH9FKwML6pMEemhK" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="-0.86602540378443793 8.1185058675714602e-16 0 0 0.50000000000000122 -2.775557561562895e-17 0 0 37.500000000004 -1.749999999999998 1 0 -1.5895657334842492e-310 6.8328264469081769e-312 6.8328264486621099e-312 1" Tag="454425.1027895.2182917.1093596">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="0tZgj2n4j7neNsQ08k3WsT" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="-0.86602540378443793 8.1185058675714602e-16 0 0 0.50000000000000122 -2.775557561562895e-17 0 0 43.750000000003993 -1.7499999999999976 1 0 -1.3722744912964258e-310 6.8328264469081769e-312 6.8328264478073763e-312 1" Tag="454425.1027895.2182917.1093601">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="22Xr2mF15CbQCVR$W_$VLh" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="-0.86602540378443793 8.1185058675714602e-16 0 0 0.50000000000000122 -2.775557561562895e-17 0 0 36.250000000003993 -1.7499999999999976 1 0 -3.0019664751703323e-310 6.8400689235113119e-312 6.84006591563966e-312 1" Tag="454425.1027895.2182917.1093595">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="1wwTT4jtX3C9e82mYC6YGT" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="-0.86602540378443793 8.1185058675714602e-16 0 0 0.50000000000000122 -2.775557561562895e-17 0 0 42.500000000004 -1.7499999999999976 1 0 6.8400690873039548e-312 6.8400688858832723e-312 6.8400658966675392e-312 1" Tag="454425.1027895.2182917.1093600">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="1GXiy3xWf0fOQdC$gO8JfW" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="-0.86602540378443793 8.1185058675714602e-16 0 0 0.50000000000000122 -2.775557561562895e-17 0 0 40.000000000003986 -1.7499999999999976 1 0 -1.0463361774114727e-310 6.8328264469081769e-312 6.8328264478073763e-312 1" Tag="454425.1027895.2182917.1093598">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="0URFt4JXXD6OjZF8OrkR8N" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="-0.86602540378443793 8.1185058675714602e-16 0 0 0.50000000000000122 -2.775557561562895e-17 0 0 41.250000000004 -1.7499999999999976 1 0 -1.6438888548738907e-310 6.8328264469081769e-312 6.8328264470761592e-312 1" Tag="454425.1027895.2182917.1093599">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcBuilding id="3JNhAW3zLAmRKwMCykb3V5" Name="rail bridge" Description="A strong rail bridge, supporting trains as they cross over." ObjectType="arched" ObjectPlacement="0.50000000000000022 0 0 0 0 1 0 0 40.000000000000192 -2.887645678129047e-15 1 0 -1.2886264575730915e-231 -0.50000000000000067 0.86602540378443826 1" CompositionType="ELEMENT" ElevationOfRefHeight="0" ElevationOfTerrain="0"/>
+				</IfcSite>
+				<IfcSite id="2syxA9_lr7Ew2uZai3VhhS" Name="road - site" Description="A designated parking area, providing space for vehicles." ObjectPlacement="-0.50000000000000033 0 0 0 0 1 0 0 10.000000000000059 0 1 0 -7.7472057046464864e-311 6.8400658182494399e-312 6.8400687243040434e-312 1" CompositionType="PARTIAL" RefElevation="0">
+					<IfcPipeSegment id="1kpVA_DFf3PRJR$l8yqtLr" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.8660254037844386 8.1185058675714611e-16 0 0 -0.50000000000000011 -2.7755575615628944e-17 0 0 11.249999999996076 -1.7499999999999976 1 0 -6.6607391322061229e-311 6.8400657600682694e-312 6.8400687486515985e-312 1" Tag="454425.1918123.1918133.1093597">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="3ctB5z6nHCoQBWFJYnFhI5" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.8660254037844386 8.1185058675714611e-16 0 0 -0.50000000000000011 -2.7755575615628944e-17 0 0 14.999999999996074 -1.7499999999999976 1 0 -2.8581247794680818e-311 6.8328264469081769e-312 6.8328264486621099e-312 1" Tag="454425.1918123.1918133.1093594">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="11LWvWX7HAOghcDUC_Fsn5" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.8660254037844386 8.1185058675714611e-16 0 0 -0.50000000000000011 -2.7755575615628944e-17 0 0 12.499999999996056 -1.749999999999998 1 0 -1.8068582190424199e-310 6.8328264469081769e-312 6.8328264470761592e-312 1" Tag="454425.1918123.1918133.1093596">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="2L8jfzclb09OjhbeQoBDvs" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.8660254037844386 8.1185058675714611e-16 0 0 -0.50000000000000011 -2.7755575615628944e-17 0 0 6.249999999996076 -1.7499999999999976 1 0 -1.2895699857310256e-231 3.8188825979877859e-16 -7.1696102001680533e-16 1" Tag="454425.1918123.1918133.1093601">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="0SESIjUgvFsOoEqvCaV5Br" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.8660254037844386 8.1185058675714611e-16 0 0 -0.50000000000000011 -2.7755575615628944e-17 0 0 13.749999999996064 -1.7499999999999976 1 0 -1.8611813404312708e-310 6.8328264469081769e-312 6.8328264478073763e-312 1" Tag="454425.1918123.1918133.1093595">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="1FDcvNA_L4dfRDGP$UNpz1" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.8660254037844386 8.1185058675714611e-16 0 0 -0.50000000000000011 -2.7755575615628944e-17 0 0 7.4999999999960689 -1.7499999999999976 1 0 -1.2971182013964573e-231 -3.8188825979877953e-16 7.1696102001680474e-16 1" Tag="454425.1918123.1918133.1093600">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="0RPLlDbKvCJwFzsj8RPg4X" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.8660254037844386 8.1185058675714611e-16 0 0 -0.50000000000000011 -2.7755575615628944e-17 0 0 9.9999999999960707 -1.7499999999999976 1 0 -1.4265976126852768e-310 6.8328264469081769e-312 6.8328264486621099e-312 1" Tag="454425.1918123.1918133.1093598">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+					<IfcPipeSegment id="1PYbWto7LA0hTpEdNPg6Df" Name="sewer pipe" Description="A sturdy sewer pipe, ensuring efficient waste management." ObjectType="culvert" ObjectPlacement="0.8660254037844386 8.1185058675714611e-16 0 0 -0.50000000000000011 -2.7755575615628944e-17 0 0 8.7499999999960671 -1.7499999999999976 1 0 -1.2936586077488256e-231 -3.8188825979877953e-16 7.1696102001680474e-16 1" Tag="454425.1918123.1918133.1093599">
+						<IfcPipeSegmentType xlink:href="#080SXXxhz7KRyQXS17Pb41"/>
+						<IfcMaterial xlink:href="#IfcMaterial_38"/>
+					</IfcPipeSegment>
+				</IfcSite>
+			</IfcSite>
+		</IfcProject>
+	</decomposition>
+</ifc>

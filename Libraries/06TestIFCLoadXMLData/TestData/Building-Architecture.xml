@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ifc xmlns:xlink="http://www.w3.org/1999/xlink">
+	<header>
+		<file_description>
+			<description>ViewDefinition [ReferenceView_V1.2]</description>
+			<implementation_level>2;1</implementation_level>
+		</file_description>
+		<file_name>
+			<author/>
+			<organization/>
+			<name>Building-Architecture.ifc</name>
+			<time_stamp>2024-11-14T11:09:12</time_stamp>
+			<preprocessor_version>IFC-manager for SketchUp (5.3.3)</preprocessor_version>
+			<originating_system>SketchUp 2024 (24.0.594)</originating_system>
+			<authorization>None</authorization>
+		</file_name>
+		<file_schema>
+			<schema_identifiers>IFC4</schema_identifiers>
+		</file_schema>
+	</header>
+	<units>
+		<IfcSIUnit UnitType="LENGTHUNIT" Prefix="MILLI" Name="METRE" SI_equivalent="0.001"/>
+		<IfcSIUnit UnitType="AREAUNIT" Name="SQUARE_METRE" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="VOLUMEUNIT" Name="CUBIC_METRE" SI_equivalent="1"/>
+	</units>
+	<connections/>
+	<properties>
+		<IfcPropertySet id="3wBmY8vZz83vO$cDNkL7kY" Name="Pset_BuildingCommon">
+			<IfcPropertySingleValue Name="ConstructionMethod" NominalValue="new construction"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="13bDBn$9j5VgVTW2fSRNs7" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="false"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="1ADkwlCmL6xBggT$95lyFd" Name="Pset_ZoneCommon">
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="false"/>
+			<IfcPropertySingleValue Name="PubliclyAccessible" NominalValue="false"/>
+			<IfcPropertySingleValue Name="HandicapAccessible" NominalValue="false"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="0OQXKQ2$DCjgMdba$dTPY8" Name="Pset_SpaceCommon">
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="false"/>
+			<IfcPropertySingleValue Name="GrossPlannedArea" NominalValue="18.5"/>
+			<IfcPropertySingleValue Name="NetPlannedArea" NominalValue="18.5"/>
+			<IfcPropertySingleValue Name="PubliclyAccessible" NominalValue="false"/>
+			<IfcPropertySingleValue Name="HandicapAccessible" NominalValue="false"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="0Ic1wZuNf4dPoqL2Bdbhzj" Name="Pset_SpaceCommon">
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="false"/>
+			<IfcPropertySingleValue Name="GrossPlannedArea" NominalValue="6.0800000000000001"/>
+			<IfcPropertySingleValue Name="NetPlannedArea" NominalValue="6.0800000000000001"/>
+			<IfcPropertySingleValue Name="PubliclyAccessible" NominalValue="false"/>
+			<IfcPropertySingleValue Name="HandicapAccessible" NominalValue="false"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="1Bo5FYnDLEKBdWxUgMe003" Name="Pset_WallCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="false"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="0dct$Q4rL8OAGYwuWN2aYf" Name="Pset_WallCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="false"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="1azMeVPPf0wAiw0nDfV2eq" Name="Pset_WallCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="false"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="0nh5ee_PzBquyyIMgVjzKT" Name="Pset_WallCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="false"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="false"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3OGrhaEG9CL9O3yd9HfiFC" Name="Pset_RoofCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="1Q7hE84Bn9RfNgpy_wcYXp" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="PitchAngle" NominalValue="45"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="false"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="31yW4FNnfEkxf1vNhmzkKo" Name="Pset_SlabCommon">
+			<IfcPropertyEnumeratedValue Name="Status"/>
+			<IfcPropertySingleValue Name="IsExternal" NominalValue="true"/>
+			<IfcPropertySingleValue Name="LoadBearing" NominalValue="false"/>
+		</IfcPropertySet>
+	</properties>
+	<quantities>
+		<IfcElementQuantity id="07E85Nn0z1QwxSvUCBaACf" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="6.4375000000003784"/>
+			<IfcQuantityLength Name="Depth" LengthValue="250.00000000009484"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="25.749999999991743"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="0z88Obo_5DahwfhHkbscpD" Name="Qto_WallBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="1.2692649352635801"/>
+			<IfcQuantityLength Name="Width" LengthValue="200.00000000000071"/>
+			<IfcQuantityLength Name="Length" LengthValue="1799.9999999999711"/>
+			<IfcQuantityArea Name="NetSideArea" AreaValue="6.3463246763178773"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="0EmMoESA9D1OtufJuaB96d" Name="Qto_WallBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="1.7856181822821586"/>
+			<IfcQuantityLength Name="Width" LengthValue="200.00000000017903"/>
+			<IfcQuantityLength Name="Length" LengthValue="4200.0000000000673"/>
+			<IfcQuantityArea Name="NetSideArea" AreaValue="8.9280909114028013"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="3Rpfb7w2D5LOctrWHlJLpt" Name="Qto_WallBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="4.230883117545889"/>
+			<IfcQuantityLength Name="Width" LengthValue="200.00000000000975"/>
+			<IfcQuantityLength Name="Length" LengthValue="6000.0000000000364"/>
+			<IfcQuantityArea Name="NetSideArea" AreaValue="21.154415587728412"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="3UFVdTl1f9d8taNBIW3H3u" Name="Qto_WallBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="0.16470195328802126"/>
+			<IfcQuantityLength Name="Width" LengthValue="24.000000000082615"/>
+			<IfcQuantityLength Name="Length" LengthValue="3800.0000000000859"/>
+			<IfcQuantityArea Name="NetSideArea" AreaValue="6.8625813869772632"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="0B8b52TwP3Wej2o$H5Rtu7" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="6.7203428483965997"/>
+			<IfcQuantityLength Name="Depth" LengthValue="300.00000000015342"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="22.40114282797721"/>
+		</IfcElementQuantity>
+		<IfcElementQuantity id="3FsmdYvgfD8eRtqqNu8Kd1" Name="Qto_SlabBaseQuantities">
+			<IfcQuantityVolume Name="NetVolume" VolumeValue="9.3635079964718901"/>
+			<IfcQuantityLength Name="Depth" LengthValue="300.0000000000386"/>
+			<IfcQuantityArea Name="NetArea" AreaValue="31.211693321568944"/>
+		</IfcElementQuantity>
+	</quantities>
+	<work>
+		<schedules/>
+		<plans/>
+	</work>
+	<calendars/>
+	<types>
+		<IfcBuildingElementProxyType id="3w6ICDipzDzBpAKGLlR62f" Name="sand bedding" Description="A layer of ground floor sand bedding, providing a stable base." Tag="884803" ElementType="subgrade" PredefinedType="ELEMENT"/>
+		<IfcBuildingElementProxyType id="3mjKLn_DjE4Beriey9bTvr" Name="origin" Description="The local position for coordination of aspect models." Tag="1028017" ElementType="origin" PredefinedType="USERDEFINED"/>
+		<IfcBuildingElementProxyType id="2IpkHFcdnD3xuZl6H52fWn" Name="geo-reference" Description="The reference point for transforming the local engineering coordinate system into the coordinate reference system of the underlying map." Tag="1028019" ElementType="origin" PredefinedType="USERDEFINED"/>
+		<IfcChimneyType id="10FwQBcdzD9ve3W6PvBTti" Name="house - chimney" Description="A chimney, standing tall and proud, guiding smoke away from the home." Tag="884350" ElementType="flue" PredefinedType="USERDEFINED"/>
+		<IfcRoofType id="0GE$iSXKL8jAEeHi$mszPq" Name="house - roof" Description="A sturdy roof, sheltering the house from the elements." Tag="902509" ElementType="gable_roof" PredefinedType="GABLE_ROOF"/>
+		<IfcSlabType id="0hnSKr4LD8eRixcnqcc6X1" Name="house - groundfloor" Description="A solid, site-cast concrete floor, providing a strong foundation." Tag="884513" ElementType="slab on grade" PredefinedType="FLOOR"/>
+		<IfcSlabType id="3eOsEo1q1CHfDNvWsh3ksD" Name="house - roof - slab left" Description="A roof slab that&apos;s got it all covered" Tag="880245" ElementType="roof" PredefinedType="ROOF"/>
+		<IfcSlabType id="3n9C2OuJjE89DiYlOaoccO" Name="house - roof - slab right" Description="A roof slab that&apos;s got it all covered" Tag="883786" ElementType="roof" PredefinedType="ROOF"/>
+		<IfcWallType id="2YJwrhcCv9v8UXU8cWK40m" Name="house - outer wall - house right front" Description="A solid outer wall, forming the right front side of the house." Tag="919456" ElementType="solidwall" PredefinedType="SOLIDWALL"/>
+		<IfcWallType id="1t790TYSH528FFF32MjoC5" Name="house - outer wall - house right back" Description="A solid outer wall, forming the right back side of the house." Tag="919483" ElementType="solidwall" PredefinedType="SOLIDWALL"/>
+		<IfcWallType id="3zoiwePjTDQAyswDZcvJRA" Name="house - outer wall - house left" Description="A solid outer wall, forming the left side of the house." Tag="919429" ElementType="solidwall" PredefinedType="SOLIDWALL"/>
+		<IfcWallType id="2S9_r4C7nDjgFt_4z9uegR" Name="plumbing wall" Description="A wall designed to house and protect plumbing systems, keeping the pipes snug and secure." Tag="880192" ElementType="plumbingwall" PredefinedType="PLUMBINGWALL"/>
+		<IfcFurnitureType id="38qaFzdvb6KwnqDJqzAlhG" Name="house - kitchen" Description="The heart of the home, where meals are prepared and shared." Tag="883722" ElementType="kitchen" AssemblyPlace="NOTDEFINED" PredefinedType="USERDEFINED"/>
+		<IfcSpaceType id="1hq0sM3Q5Cq9DOc93a74pc" Name="house - living room" Description="A cozy space, perfect for relaxation and family gatherings." Tag="883849" ElementType="living area" PredefinedType="NOTDEFINED" LongName="living room"/>
+		<IfcSpaceType id="30wkH7SyH7gvhogulgnDi9" Name="house - entry hall" Description="A welcoming entry hall, the first impression of the home." Tag="884735" ElementType="hallway" PredefinedType="NOTDEFINED" LongName="entry hall"/>
+		<IfcSpatialZoneType id="02tV5cCF9FyA9D1O5nS04E" Name="house - gross volume" Tag="884737" ElementType="gross volume" PredefinedType="USERDEFINED"/>
+	</types>
+	<layers/>
+	<groups>
+		<IfcZone id="2Cv3e8z_D5hxYOcR$bfTHG" Name="house - living space" Description="A cozy living space, perfect for relaxation and gatherings.">
+			<IfcPropertySet xlink:href="#1ADkwlCmL6xBggT$95lyFd"/>
+			<IfcSpace id="0xY$LvXaDEswJDk_VU74C_" Name="living room" Description="A cozy space, perfect for relaxation and family gatherings." ObjectType="living area" ObjectPlacement="1 0 0 0 0 1 0 0 4.9999999999998304 1.9491608327371067e-14 1 0 -1.2976653484858691e-231 1 0 1" LongName="living room" CompositionType="ELEMENT" ElevationWithFlooring="0">
+				<IfcFurniture id="2e9pghUJbBqR4jTInsONQT" Name="kitchen" Description="The heart of the home, where meals are prepared and shared." ObjectType="kitchen" ObjectPlacement="-1.5543122344752192e-15 4.1840851422330615e-32 0 0 5.6617038951428643e-16 1 0 0 7.0999999999999766 4.8187587253778472e-14 1 0 -1.2945202642240171e-231 1.2027122125173388e-153 1.2027122125347039e-153 1" Tag="454425.1027891.979946.932083.920029.919427.2003222">
+					<IfcFurnitureType xlink:href="#38qaFzdvb6KwnqDJqzAlhG"/>
+					<IfcMaterial xlink:href="#IfcMaterial_180"/>
+				</IfcFurniture>
+				<IfcBuildingElementProxy id="1wADrO19H3w980h1wUyXLk" Name="Group#18" ObjectPlacement="1 0 0 0 0 1 0 0 5.6259999999999799 0.89999999999999869 1 0 -5.4328649150685241e-311 1.0869043092889407e-71 7.8693183559754593e-67 1" Tag="454425.1027891.979946.932083.920029.919427.2037909">
+					<IfcMaterial xlink:href="#IfcMaterial_195"/>
+				</IfcBuildingElementProxy>
+				<IfcPropertySet xlink:href="#0OQXKQ2$DCjgMdba$dTPY8"/>
+				<IfcSpaceType xlink:href="#1hq0sM3Q5Cq9DOc93a74pc"/>
+			</IfcSpace>
+			<IfcSpace id="18QhMtUIXBvQktPHXXxs7H" Name="entry hall" Description="A welcoming entry hall, the first impression of the home." ObjectType="hallway" ObjectPlacement="1 0 0 0 0 1 0 0 3.1999999999999305 -1.0828671292983925e-15 1 0 -1.2970363303137902e-231 1 0 1" LongName="entry hall" CompositionType="ELEMENT" ElevationWithFlooring="0">
+				<IfcPropertySet xlink:href="#0Ic1wZuNf4dPoqL2Bdbhzj"/>
+				<IfcSpaceType xlink:href="#30wkH7SyH7gvhogulgnDi9"/>
+			</IfcSpace>
+		</IfcZone>
+	</groups>
+	<materials>
+		<IfcMaterial id="IfcMaterial_62" Name="concrete_reinforced_in-situ"/>
+		<IfcMaterial id="IfcMaterial_180" Name="wood_mdf_plate"/>
+		<IfcMaterial id="IfcMaterial_195" Name="Default"/>
+		<IfcMaterial id="IfcMaterial_271" Name="stone_sand-lime"/>
+		<IfcMaterial id="IfcMaterial_362" Name="gypsum_fiber-board_panel"/>
+		<IfcMaterial id="IfcMaterial_405" Name="composite_element_roof"/>
+		<IfcMaterial id="IfcMaterial_468" Name="bulk-material_sand-coarse_generic"/>
+		<IfcMaterial id="IfcMaterial_486" Name="virtual_white"/>
+		<IfcMaterial id="IfcMaterial_505" Name="virtual_black"/>
+	</materials>
+	<decomposition>
+		<IfcProject id="2Ndyd$OSX7s9A04nc4lyye" Name="ifc silly sample scene - project" Description="Demystifying IFC with a playful scene using diverse building elements and compositions.">
+			<IfcSite id="23sFQGRy90RxVbRHD9iSE2" Name="environment - site" Description="A sample scene environment, showcasing the surrounding landscape." ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" CompositionType="COMPLEX" RefElevation="0">
+				<IfcBuildingElementProxy id="3Fit2Fad92zf2f6aWdJtF5" Name="geo-reference" Description="The reference point for transforming the local engineering coordinate system into the coordinate reference system of the underlying map." ObjectType="origin" ObjectPlacement="0.49999999999999989 0 0 0 0 1 0 0 -14.199999999999998 -1.3000000000000018 1 0 -2.6075638609764781e-310 0 0 1" Tag="454425.1032696">
+					<IfcBuildingElementProxyType xlink:href="#2IpkHFcdnD3xuZl6H52fWn"/>
+					<IfcMaterial xlink:href="#IfcMaterial_505"/>
+				</IfcBuildingElementProxy>
+				<IfcSite id="1Pbuu0tu59NfhrTsztVBK1" Name="house - site" Description="Smoke curls from a friendly chimney, promising warmth within this idyllic hilltop house." ObjectPlacement="1 0 0 0 0 1 0 0 5.8000000000000007 -1.3000000000000018 1 0 -2.1729785790224905e-310 0 0 1" CompositionType="PARTIAL" RefElevation="0">
+					<IfcBuildingElementProxy id="2F44QMqSH3TOkM$SZoqCBe" Name="origin" Description="The local position for coordination of aspect models." ObjectType="origin" ObjectPlacement="1 0 0 0 0 1 0 0 8.8817841970012523e-15 -1.7763568394002505e-15 1 0 -1.2926332085080001e-231 0.49999999999999989 -0.86602540378443871 1" Tag="454425.1027891.1032757">
+						<IfcBuildingElementProxyType xlink:href="#3mjKLn_DjE4Beriey9bTvr"/>
+						<IfcMaterial xlink:href="#IfcMaterial_486"/>
+					</IfcBuildingElementProxy>
+					<IfcBuilding id="0c$N1CTon2BB2Sp89385G8" Name="Single-family house" Description="The main building structure, providing shelter and space." ObjectPlacement="1 0 0 0 0 1 0 0 3.000000000000008 -1.7763568394002505e-15 1 0 -1.847040161524264e-310 0 7.9050503334599447e-322 1" LongName="house - building" CompositionType="ELEMENT">
+						<IfcRoof id="2iPwJwpPDCSgMheXwk9cBT" Name="house - roof" Description="A sturdy roof, sheltering the house from the elements." ObjectType="gable_roof" ObjectPlacement="1 0 0 0 0 1 0 0 2.9999999999999849 1.8000000000000351 1 0 -1.3001814211741891e-231 1 0 1" Tag="454425.1027891.979946.932084">
+							<IfcSlab id="0ZTBBPo6f6bxqV2K7Oelrq" Name="house - roof - slab left" Description="A roof slab that&apos;s got it all covered" ObjectType="roof" ObjectPlacement="1.0342984071579398e-14 0.70710678118653203 0 0 -1.4988010832439613e-15 0.70710678118656312 0 0 8.9999999999999236 5.2757359312879526 1 0 -3.8031725685397617e-311 1.2027122125173388e-153 1.2027122125347039e-153 1" Tag="454425.1027891.979946.932084.902510">
+								<IfcPropertySet xlink:href="#1Q7hE84Bn9RfNgpy_wcYXp"/>
+								<IfcElementQuantity xlink:href="#0B8b52TwP3Wej2o$H5Rtu7"/>
+								<IfcSlabType xlink:href="#3eOsEo1q1CHfDNvWsh3ksD"/>
+								<IfcMaterial xlink:href="#IfcMaterial_405"/>
+							</IfcSlab>
+							<IfcSlab id="12UVOn4wvAJPMUExKdZLb8" Name="house - roof - slab right" Description="A roof slab that&apos;s got it all covered" ObjectType="roof" ObjectPlacement="1.0244853292911494e-14 0.70710678118654047 0 0 1.3822276656583199e-14 0.70710678118655468 0 0 2.9999999999999445 5.275735931288084 1 0 -1.0870193484281393e-311 0 0 1" Tag="454425.1027891.979946.932084.902511">
+								<IfcPropertySet xlink:href="#31yW4FNnfEkxf1vNhmzkKo"/>
+								<IfcElementQuantity xlink:href="#3FsmdYvgfD8eRtqqNu8Kd1"/>
+								<IfcSlabType xlink:href="#3n9C2OuJjE89DiYlOaoccO"/>
+								<IfcMaterial xlink:href="#IfcMaterial_405"/>
+							</IfcSlab>
+							<IfcPropertySet xlink:href="#3OGrhaEG9CL9O3yd9HfiFC"/>
+							<IfcRoofType xlink:href="#0GE$iSXKL8jAEeHi$mszPq"/>
+						</IfcRoof>
+						<IfcSpatialZone id="1yP7NInQz5uQzbiOpVFFJr" Name="house - gross volume" ObjectType="gross volume" ObjectPlacement="1 0 0 0 0 1 0 0 3.000000000000008 -1.7763568394002505e-15 1 0 -2.6618869823666136e-310 1.2027122125173388e-153 1.2027122125347039e-153 1">
+							<IfcSpatialZoneType xlink:href="#02tV5cCF9FyA9D1O5nS04E"/>
+						</IfcSpatialZone>
+						<IfcBuildingElementProxy id="3_4VN63S96DfWiJjgG8j1C" Name="sand bedding" Description="A layer of ground floor sand bedding, providing a stable base." ObjectType="subgrade" ObjectPlacement="1 0 0 0 0 1 0 0 3.000000000000008 -1.7763568394002505e-15 1 0 -4.3464035234104042e-311 0 5.9781943146790832e-322 1" Tag="454425.1027891.979946.932086">
+							<IfcBuildingElementProxyType xlink:href="#3w6ICDipzDzBpAKGLlR62f"/>
+							<IfcMaterial xlink:href="#IfcMaterial_468"/>
+						</IfcBuildingElementProxy>
+						<IfcBuildingStorey id="1Ano2ZUxnEIvVQ_beukl8b" Name="00 groundfloor" Description="The ground floor, forming the base level of the building." ObjectPlacement="1 0 0 0 0 1 0 0 3.000000000000008 -1.7763568394002505e-15 1 0 -3.8014803635612508e-270 6.9515845274071344e-310 2.3171678789954463e-321 1" CompositionType="ELEMENT" Elevation="-1.8047785488306545e-12">
+							<IfcSlab id="3zR0BOEcLADRKln4HYporH" Name="floor" Description="A solid, site-cast concrete floor, providing a strong foundation." ObjectType="slab on grade" ObjectPlacement="1 0 0 0 0 1 0 0 3.0000000000000022 -0.25000000000000105 1 0 -2.7162097929129766e-310 0 0 1" Tag="454425.1027891.979946.932083.920025">
+								<IfcPropertySet xlink:href="#13bDBn$9j5VgVTW2fSRNs7"/>
+								<IfcElementQuantity xlink:href="#07E85Nn0z1QwxSvUCBaACf"/>
+								<IfcSlabType xlink:href="#0hnSKr4LD8eRixcnqcc6X1"/>
+								<IfcMaterial xlink:href="#IfcMaterial_62"/>
+							</IfcSlab>
+							<IfcWall id="1AQAupaRP1txwK1AGiN61V" Name="house - outer wall - house right front" Description="A solid outer wall, forming the right front side of the house." ObjectType="solidwall" ObjectPlacement="2.5257573810222311e-14 -8.668524055638207e-29 0 0 3.2836943041225645e-15 1 0 0 4.7999999999999332 -8.0930817603075412e-15 1 0 -1.2891736045124026e-231 8.3734065843299253e-15 -1 1" Tag="454425.1027891.979946.932083.920023">
+								<IfcPropertySet xlink:href="#1Bo5FYnDLEKBdWxUgMe003"/>
+								<IfcElementQuantity xlink:href="#0z88Obo_5DahwfhHkbscpD"/>
+								<IfcWallType xlink:href="#2YJwrhcCv9v8UXU8cWK40m"/>
+								<IfcMaterial xlink:href="#IfcMaterial_271"/>
+							</IfcWall>
+							<IfcWall id="3wdauVJT5Fx9drrREiDqA$" Name="house - outer wall - house right back" Description="A solid outer wall, forming the right back side of the house." ObjectType="solidwall" ObjectPlacement="-1.1657341758564144e-15 0 0 0 0 1 0 0 8.9999999999999769 -2.9569946491392329e-14 1 0 -1.9556861193648219e-310 0 0 1" Tag="454425.1027891.979946.932083.920031">
+								<IfcPropertySet xlink:href="#0dct$Q4rL8OAGYwuWN2aYf"/>
+								<IfcElementQuantity xlink:href="#0EmMoESA9D1OtufJuaB96d"/>
+								<IfcWallType xlink:href="#1t790TYSH528FFF32MjoC5"/>
+								<IfcMaterial xlink:href="#IfcMaterial_271"/>
+							</IfcWall>
+							<IfcWall id="0OfZwWc8j9QP5uX8xPTxDH" Name="house - outer wall - house left" Description="A solid outer wall, forming the left side of the house." ObjectType="solidwall" ObjectPlacement="1.3322676295501878e-15 0 0 0 0 1 0 0 3.0000000000000138 -3.581135388230905e-15 1 0 -2.3359483576398641e-310 4.8578750594988399e-33 4.8578750597249806e-33 1" Tag="454425.1027891.979946.932083.920032">
+								<IfcPropertySet xlink:href="#1azMeVPPf0wAiw0nDfV2eq"/>
+								<IfcElementQuantity xlink:href="#3Rpfb7w2D5LOctrWHlJLpt"/>
+								<IfcWallType xlink:href="#3zoiwePjTDQAyswDZcvJRA"/>
+								<IfcMaterial xlink:href="#IfcMaterial_271"/>
+							</IfcWall>
+							<IfcChimney id="3dkFAzOGrAIuOzY_RdrdVv" Name="house - chimney" Description="A chimney, standing tall and proud, guiding smoke away from the home." ObjectType="flue" ObjectPlacement="-1.3322676295501878e-15 0 0 0 0 1 0 0 8.2999999999999758 -2.0546053747239057e-14 1 0 -3.8347536910925055e-270 6.9515845274071344e-310 2.1689481852430723e-321 1" Tag="454425.1027891.979946.932083.2023772">
+								<IfcChimneyType xlink:href="#10FwQBcdzD9ve3W6PvBTti"/>
+								<IfcMaterial xlink:href="#IfcMaterial_271"/>
+							</IfcChimney>
+							<IfcBuildingElementProxy id="0bo7_K6az7AA$4RxkSNVNM" Name="Group#19" ObjectPlacement="1 0 0 0 0 1 0 0 5.0000000000000302 4.8035531108325811e-14 1 0 -1.0321951020794985e-310 1.2027122125173388e-153 1.2027122125347039e-153 1" Tag="454425.1027891.979946.932083.2037918">
+								<IfcMaterial xlink:href="#IfcMaterial_195"/>
+							</IfcBuildingElementProxy>
+							<IfcWall id="1uS5vfZPn9R8PlAaVd73on" Name="plumbing wall" Description="A wall designed to house and protect plumbing systems, keeping the pipes snug and secure." ObjectType="plumbingwall" ObjectPlacement="-1.2663699797266077e-15 0 0 0 0 1 0 0 8.8000000000000931 4.9840309657156469e-14 1 0 -1.2494870954720022e-310 0 0 1" Tag="454425.1027891.979946.932083.2037918.920027">
+								<IfcPropertySet xlink:href="#0nh5ee_PzBquyyIMgVjzKT"/>
+								<IfcElementQuantity xlink:href="#3UFVdTl1f9d8taNBIW3H3u"/>
+								<IfcWallType xlink:href="#2S9_r4C7nDjgFt_4z9uegR"/>
+								<IfcMaterial xlink:href="#IfcMaterial_362"/>
+							</IfcWall>
+							<IfcSpace id="0xY$LvXaDEswJDk_VU74C_" Name="living room" Description="A cozy space, perfect for relaxation and family gatherings." ObjectType="living area" ObjectPlacement="1 0 0 0 0 1 0 0 4.9999999999998304 1.9491608327371067e-14 1 0 -1.2976653484858691e-231 1 0 1" LongName="living room" CompositionType="ELEMENT" ElevationWithFlooring="0">
+								<IfcFurniture id="2e9pghUJbBqR4jTInsONQT" Name="kitchen" Description="The heart of the home, where meals are prepared and shared." ObjectType="kitchen" ObjectPlacement="-1.5543122344752192e-15 4.1840851422330615e-32 0 0 5.6617038951428643e-16 1 0 0 7.0999999999999766 4.8187587253778472e-14 1 0 -1.2945202642240171e-231 1.2027122125173388e-153 1.2027122125347039e-153 1" Tag="454425.1027891.979946.932083.920029.919427.2003222">
+									<IfcFurnitureType xlink:href="#38qaFzdvb6KwnqDJqzAlhG"/>
+									<IfcMaterial xlink:href="#IfcMaterial_180"/>
+								</IfcFurniture>
+								<IfcBuildingElementProxy id="1wADrO19H3w980h1wUyXLk" Name="Group#18" ObjectPlacement="1 0 0 0 0 1 0 0 5.6259999999999799 0.89999999999999869 1 0 -5.4328649150685241e-311 1.2027122125173388e-153 1.2027122125347039e-153 1" Tag="454425.1027891.979946.932083.920029.919427.2037909">
+									<IfcMaterial xlink:href="#IfcMaterial_195"/>
+								</IfcBuildingElementProxy>
+								<IfcPropertySet xlink:href="#0OQXKQ2$DCjgMdba$dTPY8"/>
+								<IfcSpaceType xlink:href="#1hq0sM3Q5Cq9DOc93a74pc"/>
+							</IfcSpace>
+							<IfcSpace id="18QhMtUIXBvQktPHXXxs7H" Name="entry hall" Description="A welcoming entry hall, the first impression of the home." ObjectType="hallway" ObjectPlacement="1 0 0 0 0 1 0 0 3.1999999999999305 -1.0828671292983925e-15 1 0 -1.2970363303137902e-231 1 0 1" LongName="entry hall" CompositionType="ELEMENT" ElevationWithFlooring="0">
+								<IfcPropertySet xlink:href="#0Ic1wZuNf4dPoqL2Bdbhzj"/>
+								<IfcSpaceType xlink:href="#30wkH7SyH7gvhogulgnDi9"/>
+							</IfcSpace>
+						</IfcBuildingStorey>
+						<IfcPropertySet xlink:href="#3wBmY8vZz83vO$cDNkL7kY"/>
+					</IfcBuilding>
+				</IfcSite>
+			</IfcSite>
+		</IfcProject>
+	</decomposition>
+</ifc>
