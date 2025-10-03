@@ -9,24 +9,20 @@ namespace HeepWare.IFC.XML.LoadData.Test
 {
     internal class Program
     {
-        private readonly bool DEBUGFLAG = false;
-        private const String filename = "TestData\\HeadQuarters.xml";
+        private readonly bool DEBUGFLAG = false; 
         static int totalelems = 0;
 
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
             string filename1 = "TestData\\Building-Architecture.xml";
-            List<string> filenames = new List<string>();
-
-            filenames.Add("TestData\\10034108-A-CENTRAL_V2018.xml");
+            List<string> filenames = new List<string>(); 
+             
             filenames.Add("TestData\\Building-Architecture.xml");
             filenames.Add("TestData\\infra-Plumbing.xml");
-            filenames.Add("TestData\\Building-Hvac.xml");
-            filenames.Add("TestData\\HeadQuarters.xml");
+            filenames.Add("TestData\\Building-Hvac.xml"); 
             filenames.Add("TestData\\infra-Rail.xml");
-            filenames.Add("TestData\\infra-Road.xml");
-            filenames.Add("TestData\\HeadQuarters.xml");
+            filenames.Add("TestData\\infra-Road.xml"); 
 
             for (int i = 0; i < filenames.Count; i++)
             {
