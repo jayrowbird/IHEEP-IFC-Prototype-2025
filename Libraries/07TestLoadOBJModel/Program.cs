@@ -10,7 +10,6 @@ namespace TestLoadOBJModel
         {
             Stopwatch sw = Stopwatch.StartNew();
             string filename = @"AssetImportData\f-16BySubmesh.obj"; 
-            filename = @"AssetImportData\HeadQuarters.obj";
             filename = @"AssetImportData\SimpleTable.obj";
             //filename = @"AssetImportData\flowers.obj";
             
